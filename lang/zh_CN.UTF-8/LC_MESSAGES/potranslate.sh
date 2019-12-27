@@ -3,7 +3,7 @@
 #Author : CHEN JUN<aladdin.china@gmai.com> , 2019
 POFILE_IN=$1
 POFILE_OUT=$2
-APIKEY="AIzaSyBi6jnYXRshXvPytqEPS1zXPZbXbNX2C9M" #replaced by your own google translate api key.
+APIKEY="XXXXXXXXXXnYXRshXvPytqEPS1zXPZbXbNX2C9M" #replaced by your own google translate api key.
 SOURCELANG="en"
 TARGETLANG="zh-Hans"
 
@@ -12,7 +12,7 @@ while read -r LINE; do
     if [[ "${LINE:0:5}" == "msgid" ]] ; then
         #msgid may have multiple line.
         MSGID_START=True
-        MSGID=${LINE:7:${#LINE}-8} # substring in double quotes.
+        MSGID=${LINE:7:${#LINE}-8} # message in double quotes.
     elif [[ "${LINE:0:6}" == "msgstr" ]] ; then 
         #one msgid readed. tranlate through google api.
         if [[ "$MSGID" != "" ]] ; then
@@ -30,8 +30,13 @@ while read -r LINE; do
                 echo "$MSGSTR"
                 exit 1
             fi
-            MSGSTR=`echo $MSGSTR | grep translatedText | cut -d \" -f 8`
-            MSGSTR="msgstr \"$MSGSTR\""
+            MSGSTR1=`echo $MSGSTR | grep translatedText | cut -d \" -f 8`
+            if [[ "$MSGSTR1" == "" ]] ; then
+                echo "Something wrong."
+                echo "$MSGSTR"
+                exit 1
+            fi
+            MSGSTR="msgstr \"$MSGSTR1\""
         else 
             MSGSTR="msgstr \"\""   #blank msgid.
         fi
@@ -43,9 +48,13 @@ while read -r LINE; do
         continue
     elif [[ "$MSGID_START" == "True" ]] ; then
         MSGID1=${LINE:1:${#LINE}-2}
-        MSGID="$MSGID $MSGID1"
+        if [[ "$MSGID" == "" ]] ; then
+            MSGID="$MSGID1"
+        else
+            MSGID="$MSGID $MSGID1"
+        fi
     fi
-    echo "$LINE" >> $POFILE_OUT   #double quotes is nessasory. because msgid may having leading spaces.
+    echo "$LINE" >> $POFILE_OUT   #double quotes is necessary. because msgid may having leading spaces.
 done < $POFILE_IN
 
 #End
