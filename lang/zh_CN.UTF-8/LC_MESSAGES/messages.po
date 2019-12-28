@@ -1563,23 +1563,23 @@ msgstr "服务"
 
 #: /centreon-web/www/install/react_translation.php:39
 msgid "Critical services"
-msgstr "Critical "
+msgstr "故障 "
 
 #: /centreon-web/www/install/react_translation.php:40
 msgid "Warning services"
-msgstr "Warning "
+msgstr "警示 "
 
 #: /centreon-web/www/install/react_translation.php:41
 msgid "Unknown services"
-msgstr "Unknown "
+msgstr "未知 "
 
 #: /centreon-web/www/install/react_translation.php:42
 msgid "Ok services"
-msgstr "Ok "
+msgstr "正常 "
 
 #: /centreon-web/www/install/react_translation.php:43
 msgid "Pending services"
-msgstr "Pending "
+msgstr "待定 "
 
 #: /centreon-web/www/install/react_translation.php:44
 msgid "Edit profile"
@@ -3738,7 +3738,7 @@ msgstr "请选择一项或多项"
 #: /centreon-web/www/include/reporting/dashboard/csvExport/csv_HostGroupLogs.php:147
 #: /centreon-web/www/include/reporting/dashboard/csvExport/csv_HostGroupLogs.php:149
 msgid "Up"
-msgstr "Up"
+msgstr "开机"
 
 #: /centreon-web/www/include/monitoring/status/Hosts/host.php:321
 #: /centreon-web/www/include/monitoring/status/Hosts/host.php:390
@@ -3761,7 +3761,7 @@ msgstr "Up"
 #: /centreon-web/www/include/reporting/dashboard/csvExport/csv_HostGroupLogs.php:150
 #: /centreon-web/www/include/reporting/dashboard/csvExport/csv_HostGroupLogs.php:152
 msgid "Down"
-msgstr "Down"
+msgstr "关机"
 
 #: /centreon-web/www/include/monitoring/status/Hosts/host.php:322
 #: /centreon-web/www/include/monitoring/status/Hosts/host.php:391
@@ -3784,7 +3784,7 @@ msgstr "Down"
 #: /centreon-web/www/include/reporting/dashboard/csvExport/csv_HostGroupLogs.php:153
 #: /centreon-web/www/include/reporting/dashboard/csvExport/csv_HostGroupLogs.php:155
 msgid "Unreachable"
-msgstr "Unreachable"
+msgstr "无法到达"
 
 #: /centreon-web/www/include/monitoring/status/Hosts/host.php:323
 #: /centreon-web/www/include/monitoring/status/Hosts/host.php:392
@@ -3803,7 +3803,7 @@ msgstr "Unreachable"
 #: /centreon-web/www/include/configuration/configObject/traps/listTraps.php:45
 #: /centreon-web/www/include/configuration/configObject/traps/listTraps.php:58
 msgid "Pending"
-msgstr "Pending"
+msgstr "待定"
 
 #: /centreon-web/www/include/monitoring/status/Hosts/host.php:362
 #: /centreon-web/www/include/monitoring/status/Services/service.php:451
@@ -3994,7 +3994,7 @@ msgstr "时区"
 #: /centreon-web/www/include/reporting/dashboard/csvExport/csv_HostGroupLogs.php:132
 #: /centreon-web/www/include/reporting/dashboard/initReport.php:190
 msgid "DOWN"
-msgstr "DOWN"
+msgstr "关机"
 
 #: /centreon-web/www/include/monitoring/status/Services/xml/makeXMLForOneHost.php:199
 #: /centreon-web/www/include/reporting/dashboard/xmlInformations/initXmlFeed.php:77
@@ -4002,7 +4002,7 @@ msgstr "DOWN"
 #: /centreon-web/www/include/reporting/dashboard/csvExport/csv_HostGroupLogs.php:136
 #: /centreon-web/www/include/reporting/dashboard/initReport.php:191
 msgid "UNREACHABLE"
-msgstr "UNREACHABLE"
+msgstr "无法到达"
 
 #: /centreon-web/www/include/monitoring/status/Services/xml/makeXMLForOneHost.php:202
 #: /centreon-web/www/include/monitoring/status/Services/xml/makeXMLForOneService.php:255
@@ -4019,7 +4019,7 @@ msgstr "UNREACHABLE"
 #: /centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:125
 #: /centreon-web/www/include/reporting/dashboard/initReport.php:163
 msgid "OK"
-msgstr "OK"
+msgstr "正常"
 
 #: /centreon-web/www/include/monitoring/status/Services/xml/makeXMLForOneHost.php:211
 #: /centreon-web/www/include/monitoring/status/Services/xml/makeXMLForOneService.php:264
@@ -4102,17 +4102,17 @@ msgstr "执行时间"
 #: /centreon-web/www/include/monitoring/status/Services/xml/makeXMLForOneService.php:244
 #: /centreon-web/www/include/reporting/dashboard/xmlInformations/initXmlFeed.php:85
 msgid "CRITICAL"
-msgstr "CRITICAL"
+msgstr "故障"
 
 #: /centreon-web/www/include/monitoring/status/Services/xml/makeXMLForOneService.php:248
 #: /centreon-web/www/include/reporting/dashboard/xmlInformations/initXmlFeed.php:84
 msgid "WARNING"
-msgstr "WARNING"
+msgstr "警示"
 
 #: /centreon-web/www/include/monitoring/status/Services/xml/makeXMLForOneService.php:252
 #: /centreon-web/www/include/reporting/dashboard/xmlInformations/initXmlFeed.php:86
 msgid "UNKNOWN"
-msgstr "UNKNOWN"
+msgstr "未知"
 
 #: /centreon-web/www/include/monitoring/status/Services/xml/makeXMLForOneService.php:279
 msgid "Notification Information"
@@ -4199,7 +4199,7 @@ msgstr "服务：设置停机计划"
 #: /centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:126
 #: /centreon-web/www/include/reporting/dashboard/initReport.php:164
 msgid "Warning"
-msgstr "Warning"
+msgstr "警示"
 
 #: /centreon-web/www/include/monitoring/status/Services/service.php:381
 #: /centreon-web/www/include/monitoring/status/Services/service.php:485
@@ -4231,7 +4231,7 @@ msgstr "Warning"
 #: /centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:127
 #: /centreon-web/www/include/reporting/dashboard/initReport.php:166
 msgid "Critical"
-msgstr "Critical"
+msgstr "故障"
 
 #: /centreon-web/www/include/monitoring/status/Services/service.php:382
 #: /centreon-web/www/include/monitoring/status/Services/service.php:486
@@ -4262,7 +4262,7 @@ msgstr "Critical"
 #: /centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:128
 #: /centreon-web/www/include/reporting/dashboard/initReport.php:165
 msgid "Unknown"
-msgstr "Unknown"
+msgstr "未知"
 
 #: /centreon-web/www/include/monitoring/status/Services/service.php:388
 msgid "Service Problems"
@@ -4625,7 +4625,7 @@ msgstr "知情服务问题"
 #: /centreon-web/www/include/options/accessLists/resourcesACL/listsResourcesAccess.php:113
 #: /centreon-web/www/include/options/accessLists/resourcesACL/listsResourcesAccess.php:143
 msgid "Enabled"
-msgstr "Enabled"
+msgstr "已启用"
 
 #: /centreon-web/www/include/monitoring/objectDetails/serviceDetails.php:320
 #: /centreon-web/www/include/monitoring/objectDetails/hostDetails.php:81
@@ -4712,7 +4712,7 @@ msgstr "Enabled"
 #: /centreon-web/www/include/options/accessLists/resourcesACL/listsResourcesAccess.php:108
 #: /centreon-web/www/include/options/accessLists/resourcesACL/listsResourcesAccess.php:143
 msgid "Disabled"
-msgstr "Disabled"
+msgstr "已禁用"
 
 #: /centreon-web/www/include/monitoring/objectDetails/serviceDetails.php:322
 #: /centreon-web/www/include/monitoring/objectDetails/hostDetails.php:78
@@ -5982,7 +5982,7 @@ msgstr "告警"
 #: /centreon-web/www/include/configuration/configObject/service/formService.php:685
 #: /centreon-web/www/include/configuration/configObject/traps/formTraps.php:169
 msgid "Ok"
-msgstr "Ok"
+msgstr "正常"
 
 #: /centreon-web/www/include/eventLogs/export/data.php:124
 msgid "Address"
@@ -6413,11 +6413,11 @@ msgstr "区域颜色"
 
 #: /centreon-web/www/include/views/componentTemplates/formComponentTemplate.php:160
 msgid "Warning Area color"
-msgstr "警告区域颜色"
+msgstr "警示区域颜色"
 
 #: /centreon-web/www/include/views/componentTemplates/formComponentTemplate.php:161
 msgid "Critical Area color"
-msgstr "故障区颜色"
+msgstr "故障区域颜色"
 
 #: /centreon-web/www/include/views/componentTemplates/formComponentTemplate.php:195
 msgid "Print Max value"
@@ -10730,31 +10730,31 @@ msgstr "旧版"
 
 #: /centreon-web/www/include/Administration/myAccount/formMyAccount.php:293
 msgid "Sound for Up status"
-msgstr "Up 状态的声音"
+msgstr "开机 状态的声音"
 
 #: /centreon-web/www/include/Administration/myAccount/formMyAccount.php:294
 msgid "Sound for Down status"
-msgstr "Down 状态的声音"
+msgstr "关机 状态的声音"
 
 #: /centreon-web/www/include/Administration/myAccount/formMyAccount.php:295
 msgid "Sound for Unreachable status"
-msgstr "Unreachable 状态的声音"
+msgstr "无法到达 状态的声音"
 
 #: /centreon-web/www/include/Administration/myAccount/formMyAccount.php:296
 msgid "Sound for OK status"
-msgstr "OK 状态的声音"
+msgstr "正常 状态的声音"
 
 #: /centreon-web/www/include/Administration/myAccount/formMyAccount.php:297
 msgid "Sound for Warning status"
-msgstr "Warning 状态的声音"
+msgstr "警示 状态的声音"
 
 #: /centreon-web/www/include/Administration/myAccount/formMyAccount.php:298
 msgid "Sound for Critical status"
-msgstr "Critical 状态的声音"
+msgstr "故障 状态的声音"
 
 #: /centreon-web/www/include/Administration/myAccount/formMyAccount.php:299
 msgid "Sound for Unknown status"
-msgstr "Unknown 状态的声音"
+msgstr "未知 状态的声音"
 
 #: /centreon-web/www/include/Administration/myAccount/formMyAccount.php:325
 msgid "Compulsory name"
@@ -10832,7 +10832,7 @@ msgstr "没有内容被修改。"
 
 #: /centreon-web/www/include/Administration/configChangelog/viewLogs.php:329
 msgid "unknown"
-msgstr "unknown"
+msgstr "未知"
 
 #: /centreon-web/www/include/Administration/configChangelog/viewLogs.php:379
 msgid "Object"
@@ -11884,7 +11884,7 @@ msgstr "以 CSV 格式导出"
 #: /centreon-web/www/include/reporting/dashboard/csvExport/csv_HostGroupLogs.php:128
 #: /centreon-web/www/include/reporting/dashboard/initReport.php:189
 msgid "UP"
-msgstr "UP"
+msgstr "开机"
 
 #: /centreon-web/www/include/reporting/dashboard/xmlInformations/initXmlFeed.php:78
 #: /centreon-web/www/include/reporting/dashboard/xmlInformations/initXmlFeed.php:87
@@ -11944,29 +11944,29 @@ msgstr "未定"
 #: /centreon-web/www/include/reporting/dashboard/csvExport/csv_HostGroupLogs.php:148
 #: /centreon-web/www/include/reporting/dashboard/csvExport/csv_HostGroupLogs.php:217
 msgid "Up Mean Time"
-msgstr "Up 平均时间"
+msgstr "开机状态 平均时间"
 
 #: /centreon-web/www/include/reporting/dashboard/csvExport/csv_HostGroupLogs.php:151
 #: /centreon-web/www/include/reporting/dashboard/csvExport/csv_HostGroupLogs.php:219
 msgid "Down Mean Time"
-msgstr "Down 平均时间"
+msgstr "关机状态 平均时间"
 
 #: /centreon-web/www/include/reporting/dashboard/csvExport/csv_HostGroupLogs.php:154
 #: /centreon-web/www/include/reporting/dashboard/csvExport/csv_HostGroupLogs.php:221
 msgid "Unreachable Mean Time"
-msgstr "Unreachable 平均时间"
+msgstr "无法到达状态 平均时间"
 
 #: /centreon-web/www/include/reporting/dashboard/csvExport/csv_HostGroupLogs.php:218
 msgid "Up Alert"
-msgstr "Up 告警"
+msgstr "开机状态 告警"
 
 #: /centreon-web/www/include/reporting/dashboard/csvExport/csv_HostGroupLogs.php:220
 msgid "Down Alert"
-msgstr "Down 告警"
+msgstr "关机状态 告警"
 
 #: /centreon-web/www/include/reporting/dashboard/csvExport/csv_HostGroupLogs.php:222
 msgid "Unreachable Alert"
-msgstr "Unreachable 告警"
+msgstr "无法到达状态 告警"
 
 #: /centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:111
 msgid "ServiceGroup"
@@ -13452,92 +13452,92 @@ msgstr "选取一种颜色"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:117
 msgid "OK Time"
-msgstr "OK 时间"
+msgstr "正常状态 时间"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:117
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:137
 msgid "OK Mean Time"
-msgstr "OK 平均时间"
+msgstr "正常状态 平均时间"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:117
 msgid "OK Alerts"
-msgstr "OK 告警"
+msgstr "正常状态 告警"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:118
 msgid "WARNING Time"
-msgstr "WARNING 时间"
+msgstr "警示状态 时间"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:118
 msgid "WARNING Mean Time"
-msgstr "WARNING 平均时间"
+msgstr "警示状态 平均时间"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:118
 msgid "WARNING Alerts"
-msgstr "WARNING 告警"
+msgstr "警示状态 告警"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:119
 msgid "CRITICAL Time"
-msgstr "CRITICAL 时间"
+msgstr "故障状态 时间"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:119
 msgid "CRITICAL Mean Time"
-msgstr "CRITICAL 平均时间"
+msgstr "故障状态 平均时间"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:119
 msgid "CRITICAL Alerts"
-msgstr "CRITICAL 告警"
+msgstr "故障状态 告警"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:120
 msgid "UNKNOWN Time"
-msgstr "UNKNOWN 时间"
+msgstr "未知状态 时间"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:120
 msgid "UNKNOWN Mean Time"
-msgstr "UNKNOWN 平均时间"
+msgstr "未知状态 平均时间"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:120
 msgid "UNKNOWN Alerts"
-msgstr "UNKNOWN 警报"
+msgstr "未知状态 警报"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:121
 msgid "UNDETERMINED Time"
-msgstr "UNDETERMINED 时间"
+msgstr "无法确定状态 时间"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:121
 msgid "UNDETERMINED Mean Time"
-msgstr "不确定的平均时间"
+msgstr "无法确定状态 平均时间"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:121
 msgid "UNDETERMINED Alerts"
-msgstr "UNDETERMINED 告警"
+msgstr "无法确定状态 告警"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:137
 msgid "OK Alert"
-msgstr "OK 警报"
+msgstr "正常状态 告警"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:138
 msgid "Warning Mean Time"
-msgstr "Warning 平均时间"
+msgstr "警示状态 平均时间"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:138
 msgid "Warning Alert"
-msgstr "Warning 告警"
+msgstr "警示状态 告警"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:139
 msgid "Unknown Mean Time"
-msgstr "Unknown 平均时间"
+msgstr "未知状态 平均时间"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:139
 msgid "Unknown Alert"
-msgstr "Unknown 告警"
+msgstr "未知状态 告警"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:140
 msgid "Critical Mean Time"
-msgstr "Critical 平均时间"
+msgstr "故障状态 平均时间"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:140
 msgid "Critical Alert"
-msgstr "Critical 告警"
+msgstr "故障状态 告警"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_HostGroupLogs.php:120
 msgid "Hosts Group"
@@ -13545,31 +13545,31 @@ msgstr "主机组"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_HostGroupLogs.php:120
 msgid "Up Time"
-msgstr "Up 时间"
+msgstr "开机状态 时间"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_HostGroupLogs.php:120
 msgid "Up Alerts"
-msgstr "Up 告警"
+msgstr "开机状态 告警"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_HostGroupLogs.php:121
 msgid "Down Time"
-msgstr "Down 时间"
+msgstr "关机状态 时间"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_HostGroupLogs.php:121
 msgid "Down Alerts"
-msgstr "Down 告警"
+msgstr "关机状态 告警"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_HostGroupLogs.php:122
 msgid "Unreachable Time"
-msgstr "Unreachable 时间"
+msgstr "无法到达状态 时间"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_HostGroupLogs.php:122
 msgid "Unreachable Alerts"
-msgstr "Unreachable 告警"
+msgstr "无法到达状态 告警"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_HostGroupLogs.php:123
 msgid "Undetermined Time"
-msgstr "Undetermined 时间"
+msgstr "无法确定状态 时间"
 
 #: centreon-web/www/include/configuration/configNagios/formNagios.php:351
 msgid "Initial State Logging Option"
