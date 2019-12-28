@@ -38,7 +38,7 @@ msgstr "块配置的类型"
 
 #: /centreon-web/www/api/class/centreon_topcounter.class.php:391
 msgid "You're not authorized to access poller data"
-msgstr "您无权访问轮询器数据"
+msgstr "您无权访问采集器数据"
 
 #: /centreon-web/www/api/class/centreon_keepalive.class.php:60
 msgid "Session is expired"
@@ -81,7 +81,7 @@ msgstr "小部件首选项"
 #: /centreon-web/www/include/options/accessLists/resourcesACL/formResourcesAccess.php:551
 #: /centreon-web/www/include/home/customViews/formLoad.php:86
 msgid "General Information"
-msgstr "一般信息"
+msgstr "常规信息"
 
 #: /centreon-web/www/api/class/centreon_home_customview.class.php:299
 #: /centreon-web/www/install/smarty_translate.php:54
@@ -1049,7 +1049,7 @@ msgstr "扩展"
 
 #: /centreon-web/www/install/menu_translation.php:85
 msgid "General Access"
-msgstr "一般访问"
+msgstr "常规访问"
 
 #: /centreon-web/www/install/menu_translation.php:86
 #: /centreon-web/www/include/configuration/configGenerateTraps/formGenerateTraps.php:118
@@ -1127,7 +1127,7 @@ msgstr "主机模板"
 
 #: /centreon-web/www/install/menu_translation.php:94
 msgid "Hostgroups Summary"
-msgstr "主机组摘要"
+msgstr "主机组概要"
 
 #: /centreon-web/www/install/menu_translation.php:95
 #: /centreon-web/www/include/monitoring/status/ServicesHostGroups/serviceGridByHG.php:91
@@ -1166,7 +1166,7 @@ msgstr "主机"
 #: /centreon-web/www/install/menu_translation.php:96
 #: /centreon-web/www/include/options/media/images/formDirectory.php:133
 msgid "Images"
-msgstr "图片"
+msgstr "图像"
 
 #: /centreon-web/www/install/menu_translation.php:97
 msgid "Indicators"
@@ -1322,12 +1322,12 @@ msgid "Performances"
 msgstr "性能"
 
 #: /centreon-web/www/install/menu_translation.php:121
-msgid "Plugin packs"
+msgid "Plugin Packs"
 msgstr "插件包"
 
 #: /centreon-web/www/install/menu_translation.php:122
 msgid "Poller Statistics"
-msgstr "轮询器统计信息"
+msgstr "采集器统计信息"
 
 #: /centreon-web/www/install/menu_translation.php:123
 #: /centreon-web/www/include/monitoring/downtime/AddDowntime.php:206
@@ -1336,7 +1336,7 @@ msgstr "轮询器统计信息"
 #: /centreon-web/www/include/configuration/configGenerate/formGenerateFiles.php:91
 #: /centreon-web/www/include/Administration/performance/viewData.php:392
 msgid "Pollers"
-msgstr "轮询器"
+msgstr "采集器"
 
 #: /centreon-web/www/install/menu_translation.php:124
 #: /centreon-web/www/include/options/accessLists/reloadACL/reloadACL.php:129
@@ -1421,19 +1421,19 @@ msgstr "服务"
 
 #: /centreon-web/www/install/menu_translation.php:136
 msgid "Services by host"
-msgstr "按主机管理服务"
+msgstr "按主机"
 
 #: /centreon-web/www/install/menu_translation.php:137
 msgid "Services by host group"
-msgstr "按主机组管理服务"
+msgstr "按主机组"
 
 #: /centreon-web/www/install/menu_translation.php:138
 msgid "Services by Hostgroup"
-msgstr "按主机组管理服务"
+msgstr "按主机组"
 
 #: /centreon-web/www/install/menu_translation.php:139
 msgid "Services by Servicegroup"
-msgstr "按服务组管理服务"
+msgstr "按服务组"
 
 #: /centreon-web/www/install/menu_translation.php:140
 msgid "Services Grid"
@@ -1551,11 +1551,11 @@ msgstr "文件未找到"
 
 #: /centreon-web/www/install/react_translation.php:36
 msgid "All pollers"
-msgstr "所有轮询器"
+msgstr "所有采集器"
 
 #: /centreon-web/www/install/react_translation.php:37
 msgid "Configure pollers"
-msgstr "配置轮询器"
+msgstr "配置采集器"
 
 #: /centreon-web/www/install/react_translation.php:38
 msgid "services"
@@ -1648,7 +1648,7 @@ msgstr "选择 IP"
 
 #: /centreon-web/www/install/react_translation.php:60
 msgid "Select pollers to be attached to this new Remote Server"
-msgstr "选择要附加到此远程服务器的轮询器"
+msgstr "选择要附加到此远程服务器的采集器"
 
 #: /centreon-web/www/install/react_translation.php:61
 msgid "Finalizing Setup"
@@ -1692,11 +1692,11 @@ msgstr "服务器配置"
 
 #: /centreon-web/www/install/react_translation.php:71
 msgid "Attach poller to a master remote server"
-msgstr "将轮询器附加到主远程服务器"
+msgstr "将采集器附加到主远程服务器"
 
 #: /centreon-web/www/install/react_translation.php:72
 msgid "Attach poller to additional remote servers"
-msgstr "将轮询器附加到其他远程服务器"
+msgstr "将采集器附加到其他远程服务器"
 
 #: /centreon-web/www/install/react_translation.php:73
 msgid "Advanced: reverse Centreon Broker communication flow"
@@ -1714,7 +1714,7 @@ msgstr "您需要在请求中发送 '%s'。"
 
 #: /centreon-web/www/install/react_translation.php:76
 msgid "Some database poller updates are not active; check your configuration"
-msgstr "某些数据库轮询器更新无效，检查您的配置"
+msgstr "某些数据库采集器更新无效，检查您的配置"
 
 #: /centreon-web/www/install/react_translation.php:77
 msgid "Latency detected, check configuration for better optimization"
@@ -1785,7 +1785,7 @@ msgstr "筛选器"
 
 #: /centreon-web/www/install/smarty_translate.php:6
 msgid "Add view"
-msgstr "新增视图"
+msgstr "添加视图"
 
 #: /centreon-web/www/install/smarty_translate.php:9
 #: /centreon-web/www/install/smarty_translate.php:15
@@ -2374,7 +2374,7 @@ msgstr "主机信息"
 #: /centreon-web/www/install/smarty_translate.php:222
 #: /centreon-web/www/include/configuration/configServers/formServers.php:203
 msgid "Poller Name"
-msgstr "轮询器名称"
+msgstr "采集器名称"
 
 #: /centreon-web/www/install/smarty_translate.php:225
 msgid "Host commands and shortcuts"
@@ -2634,7 +2634,7 @@ msgstr "没有安排服务停机计划"
 #: /centreon-web/www/include/Administration/brokerPerformance/brokerPerformance.php:221
 #: /centreon-web/www/include/Administration/corePerformance/nagiosStats.php:85
 msgid "Poller"
-msgstr "轮询器"
+msgstr "采集器"
 
 #: /centreon-web/www/install/smarty_translate.php:324
 msgid "Snmp Traps"
@@ -2833,7 +2833,7 @@ msgstr "服务组"
 
 #: /centreon-web/www/install/smarty_translate.php:582
 msgid "You must set a poller for generate configuration."
-msgstr "您必须设置一个轮询器以生成配置。"
+msgstr "您必须设置一个采集器以生成配置。"
 
 #: /centreon-web/www/install/smarty_translate.php:588
 #: /centreon-web/www/include/configuration/configServers/formServers.php:263
@@ -3917,7 +3917,7 @@ msgstr "您无权访问此资源"
 
 #: /centreon-web/www/include/monitoring/status/Services/xml/makeXMLForOneHost.php:153
 msgid "Polling instance"
-msgstr "轮询实例"
+msgstr "采集器实例"
 
 #: /centreon-web/www/include/monitoring/status/Services/xml/makeXMLForOneHost.php:162
 #: /centreon-web/www/include/monitoring/status/Services/xml/makeXMLForOneHost.php:229
@@ -4067,7 +4067,7 @@ msgstr "服务ID错误"
 #: /centreon-web/src/CentreonLegacy/Core/Module/Information.php:217
 #: /centreon-web/src/CentreonLegacy/Core/Widget/Information.php:273
 msgid "N/A"
-msgstr "不适用"
+msgstr "N/A"
 
 #: /centreon-web/www/include/monitoring/status/Services/xml/makeXMLForOneService.php:172
 msgid "Meta service"
@@ -5718,7 +5718,7 @@ msgstr "周期"
 
 #: /centreon-web/www/include/monitoring/recurrentDowntime/formDowntime.php:302
 msgid "Add new period"
-msgstr "新增周期"
+msgstr "添加周期"
 
 #: /centreon-web/www/include/monitoring/recurrentDowntime/formDowntime.php:326
 msgid "The end time must be greater than the start time."
@@ -6704,7 +6704,7 @@ msgstr "Central"
 
 #: /centreon-web/www/include/configuration/configServers/listServers.php:228
 msgid "Distant Poller"
-msgstr "远程的轮询器"
+msgstr "远程的采集器"
 
 #: /centreon-web/www/include/configuration/configServers/listServers.php:230
 msgid "Remote Server"
@@ -6727,15 +6727,15 @@ msgstr "您无权访问此监视实例"
 
 #: /centreon-web/www/include/configuration/configServers/formServers.php:162
 msgid "Add a poller"
-msgstr "添加轮询器"
+msgstr "添加采集器"
 
 #: /centreon-web/www/include/configuration/configServers/formServers.php:164
 msgid "Modify a poller Configuration"
-msgstr "修改轮询器配置"
+msgstr "修改采集器配置"
 
 #: /centreon-web/www/include/configuration/configServers/formServers.php:166
 msgid "View a poller Configuration"
-msgstr "查看轮询器配置"
+msgstr "查看采集器配置"
 
 #: /centreon-web/www/include/configuration/configServers/formServers.php:172
 msgid "Server Information"
@@ -6823,7 +6823,7 @@ msgstr "是本机吗？"
 
 #: /centreon-web/www/include/configuration/configServers/formServers.php:237
 msgid "Is default poller ?"
-msgstr "是默认轮询器吗？"
+msgstr "是默认采集器吗？"
 
 #: /centreon-web/www/include/configuration/configServers/formServers.php:264
 msgid "Centreon Broker reload command"
@@ -6859,7 +6859,7 @@ msgstr "陷阱的轻量数据库目录"
 
 #: /centreon-web/www/include/configuration/configServers/formServers.php:336
 msgid "The name of the poller is mandatory"
-msgstr "轮询器的名称为必填项"
+msgstr "采集器的名称为必填项"
 
 #: /centreon-web/www/include/configuration/configServers/formServers.php:339
 msgid ""
@@ -6905,7 +6905,7 @@ msgstr "配置名称"
 
 #: /centreon-web/www/include/configuration/configNagios/formNagios.php:194
 msgid "Linked poller"
-msgstr "链接轮询器"
+msgstr "链接采集器"
 
 #: /centreon-web/www/include/configuration/configNagios/formNagios.php:203
 #: /centreon-web/www/include/configuration/configObject/host_template_model/formHostTemplateModel.php:224
@@ -7047,7 +7047,7 @@ msgstr "外部命令文件"
 
 #: /centreon-web/www/include/configuration/configNagios/formNagios.php:295
 msgid "Lock File"
-msgstr "锁定档案"
+msgstr "锁定文件"
 
 #: /centreon-web/www/include/configuration/configNagios/formNagios.php:304
 msgid "State Retention Option"
@@ -7292,7 +7292,7 @@ msgstr "服务绩效数据文件模板"
 #: /centreon-web/www/include/configuration/configNagios/formNagios.php:547
 #: /centreon-web/www/include/configuration/configNagios/formNagios.php:553
 msgid "Append"
-msgstr "添加"
+msgstr "追加"
 
 #: /centreon-web/www/include/configuration/configNagios/formNagios.php:548
 #: /centreon-web/www/include/configuration/configNagios/formNagios.php:554
@@ -7772,7 +7772,7 @@ msgstr "重新装载"
 
 #: /centreon-web/www/include/configuration/configGenerate/formGenerateFiles.php:92
 msgid "You need to select a least one polling instance."
-msgstr "您需要选择至少一个轮询实例。"
+msgstr "您需要选择至少一个采集器实例。"
 
 #: /centreon-web/www/include/configuration/configGenerate/formGenerateFiles.php:106
 msgid "Export"
@@ -7780,7 +7780,7 @@ msgstr "导出"
 
 #: /centreon-web/www/include/configuration/configGenerate/formGenerateFiles.php:112
 msgid "Compulsory Poller"
-msgstr "轮询器是必填项"
+msgstr "采集器是必填项"
 
 #: /centreon-web/www/include/configuration/configGenerate/formGenerateFiles.php:113
 msgid "Console"
@@ -7816,7 +7816,7 @@ msgstr "已中止。"
 
 #: /centreon-web/www/include/configuration/configGenerate/formGenerateFiles.php:168
 msgid "No poller selected"
-msgstr "未选择轮询器"
+msgstr "未选择采集器"
 
 #: /centreon-web/www/include/configuration/configGenerate/formGenerateFiles.php:169
 msgid "Executing command"
@@ -7916,7 +7916,7 @@ msgstr "值"
 
 #: /centreon-web/www/include/configuration/configResources/listResources.php:97
 msgid "Associated pollers"
-msgstr "关联的轮询器"
+msgstr "关联的采集器"
 
 #: /centreon-web/www/include/configuration/configResources/listResources.php:215
 #: /centreon-web/www/include/configuration/configObject/service_categories/listServiceCategories.php:222
@@ -7993,7 +7993,7 @@ msgstr "某个实例使用的资源"
 
 #: /centreon-web/www/include/configuration/configGenerateTraps/formGenerateTraps.php:73
 msgid "All Pollers"
-msgstr "所有轮询器"
+msgstr "所有采集器"
 
 #: /centreon-web/www/include/configuration/configGenerateTraps/formGenerateTraps.php:85
 msgid "SNMP Trap Generation"
@@ -8055,7 +8055,7 @@ msgstr "获取本地请求者时出错。"
 
 #: /centreon-web/www/include/configuration/configCentreonBroker/wizard/step2.php:62
 msgid "No active poller is defined in Centreon."
-msgstr "Centreon 中未定义活动轮询器。"
+msgstr "Centreon 中未定义活动采集器。"
 
 #: /centreon-web/www/include/configuration/configCentreonBroker/wizard/step2.php:68
 msgid "Central address"
@@ -8089,7 +8089,7 @@ msgstr "插入 central-rrd 配置时出错"
 
 #: /centreon-web/www/include/configuration/configCentreonBroker/wizard/save.php:318
 msgid "Error while inserting poller-module configuration"
-msgstr "插入轮询模块配置时出错"
+msgstr "插入采集器模块配置时出错"
 
 #: /centreon-web/www/include/configuration/configCentreonBroker/formCentreonBroker.php:78
 msgid "Add a Centreon-Broker Configuration"
@@ -8173,7 +8173,7 @@ msgstr "值必须是数字"
 
 #: /centreon-web/www/include/configuration/configCentreonBroker/formCentreonBroker.php:238
 msgid "General"
-msgstr "一般"
+msgstr "常规"
 
 #: /centreon-web/www/include/configuration/configCentreonBroker/listCentreonBroker.php:65
 msgid "Outputs"
@@ -8221,11 +8221,11 @@ msgstr "选择配置模板："
 
 #: /centreon-web/www/include/configuration/configCentreonBroker/wizard_ajax.php:108
 msgid "Simple poller"
-msgstr "简单的轮询器"
+msgstr "简单的采集器"
 
 #: /centreon-web/www/include/configuration/configObject/traps-groups/formGroups.php:66
 msgid "Add Group"
-msgstr "新增分组"
+msgstr "添加分组"
 
 #: /centreon-web/www/include/configuration/configObject/traps-groups/formGroups.php:68
 msgid "Modify Group"
@@ -8296,7 +8296,7 @@ msgstr "供应商名称"
 
 #: /centreon-web/www/include/configuration/configObject/traps-mibs/formMibs.php:75
 msgid "File (.mib)"
-msgstr "档案（.mib）"
+msgstr "文件（.mib）"
 
 #: /centreon-web/www/include/configuration/configObject/traps-mibs/formMibs.php:109
 #: /centreon-web/www/include/configuration/configObject/contact/ldapImportContact.php:112
@@ -9613,7 +9613,7 @@ msgstr "从属主机名"
 #: /centreon-web/www/include/configuration/configObject/connector/formConnector.php:92
 #: /centreon-web/www/include/Administration/parameters/ldap/form.php:62
 msgid "General information"
-msgstr "一般信息"
+msgstr "常规信息"
 
 #: /centreon-web/www/include/configuration/configObject/connector/formConnector.php:94
 msgid "Add a Connector"
@@ -9987,7 +9987,7 @@ msgstr "您无权访问此联系人"
 
 #: /centreon-web/www/include/configuration/configObject/contact/formContact.php:239
 msgid "Add a User"
-msgstr "新增用户"
+msgstr "添加用户"
 
 #: /centreon-web/www/include/configuration/configObject/contact/formContact.php:251
 msgid "Modify a User"
@@ -10654,7 +10654,7 @@ msgstr "抱歉，您的命令行不包含任何 $_SERVICE$ 宏或 $_HOST$ 宏。
 
 #: /centreon-web/www/include/configuration/configObject/command/formArguments.php:86
 msgid "Arguments"
-msgstr "争论"
+msgstr "参数"
 
 #: /centreon-web/www/include/configuration/configObject/command/formArguments.php:134
 msgid "Sorry, your command line does not contain any $ARGn$ macro."
@@ -10888,7 +10888,7 @@ msgstr "启用排队文件"
 
 #: /centreon-web/www/include/Administration/brokerPerformance/brokerPerformance.php:94
 msgid "Queued events"
-msgstr "排队事件"
+msgstr "排队的事件"
 
 #: /centreon-web/www/include/Administration/brokerPerformance/brokerPerformance.php:98
 msgid "Memory file"
@@ -10897,12 +10897,12 @@ msgstr "内存文件"
 #: /centreon-web/www/include/Administration/brokerPerformance/brokerPerformance.php:103
 #: /centreon-web/www/include/Administration/brokerPerformance/brokerPerformance.php:105
 msgid "Input accepted events type"
-msgstr "输入接受的事件类型"
+msgstr "输入所接受的事件类型"
 
 #: /centreon-web/www/include/Administration/brokerPerformance/brokerPerformance.php:111
 #: /centreon-web/www/include/Administration/brokerPerformance/brokerPerformance.php:113
 msgid "Output accepted events type"
-msgstr "输出接受的事件类型"
+msgstr "输出所接受的事件类型"
 
 #: /centreon-web/www/include/Administration/brokerPerformance/brokerPerformance.php:242
 msgid "Last update"
@@ -10918,7 +10918,7 @@ msgstr "输入"
 
 #: /centreon-web/www/include/Administration/brokerPerformance/brokerPerformance.php:261
 msgid "No statistics file defined for this poller"
-msgstr "没有为此轮询器定义统计数据文件"
+msgstr "没有为此采集器定义统计数据文件"
 
 #: /centreon-web/www/include/Administration/brokerPerformance/brokerPerformance.php:271
 msgid "Cannot open statistics file"
@@ -11237,7 +11237,7 @@ msgstr "引擎目录"
 
 #: /centreon-web/www/include/Administration/parameters/engine/form.php:178
 msgid "Tactical Overview"
-msgstr "策略概要"
+msgstr "战术概览页面"
 
 #: /centreon-web/www/include/Administration/parameters/engine/form.php:179
 msgid "Mailer path"
@@ -11455,7 +11455,7 @@ msgstr "临时目录"
 
 #: /centreon-web/www/include/Administration/parameters/backup/formBackup.php:82
 msgid "Backup database centreon"
-msgstr "备份数据库中心"
+msgstr "备份数据库 centreon"
 
 #: /centreon-web/www/include/Administration/parameters/backup/formBackup.php:83
 msgid "Backup database centreon_storage"
@@ -12238,11 +12238,11 @@ msgstr "显示顶级指标数据"
 
 #: /centreon-web/www/include/options/accessLists/actionsACL/formActionsAccess.php:164
 msgid "Display Top Counter pollers statistics"
-msgstr "显示顶级轮询器统计信息"
+msgstr "显示顶级采集器统计信息"
 
 #: /centreon-web/www/include/options/accessLists/actionsACL/formActionsAccess.php:165
 msgid "Display Poller Listing"
-msgstr "显示轮询器列表"
+msgstr "显示采集器列表"
 
 #: /centreon-web/www/include/options/accessLists/actionsACL/formActionsAccess.php:169
 msgid "Generate SNMP Trap configuration"
@@ -12338,7 +12338,7 @@ msgstr "只读"
 
 #: /centreon-web/www/include/options/accessLists/groupsACL/formGroupConfig.php:196
 msgid "Add a Group"
-msgstr "新增分组"
+msgstr "添加分组"
 
 #: /centreon-web/www/include/options/accessLists/groupsACL/formGroupConfig.php:198
 msgid "Modify a Group"
@@ -12443,7 +12443,7 @@ msgstr "<b><i>帮助：</i></b>选择要应用于资源定义的过滤器，以�
 
 #: /centreon-web/www/include/options/accessLists/resourcesACL/formResourcesAccess.php:332
 msgid "Poller Filter"
-msgstr "轮询器过滤"
+msgstr "采集器过滤"
 
 #: /centreon-web/www/include/options/accessLists/resourcesACL/formResourcesAccess.php:381
 msgid "Exclude hosts from selected host groups"
@@ -12515,7 +12515,7 @@ msgstr "图片名称"
 #: /centreon-web/www/include/options/media/images/formImg.php:156
 #: /centreon-web/www/include/options/media/images/listImg.php:82
 msgid "Image"
-msgstr "图片"
+msgstr "图像"
 
 #: /centreon-web/www/include/options/media/images/formImg.php:144
 msgid "Compulsory image name"
@@ -12727,4 +12727,1053 @@ msgstr "找不到中央 broker 配置ID"
 
 #: /centreon-web/src/Centreon/Domain/Repository/CfgCentreonBrokerRepository.php:75
 msgid "Poller broker config id not found"
-msgstr "找不到轮询 broker 配置ID"
+msgstr "找不到采集器 broker 配置ID"
+
+#: -----------以下词条从法语messages.po中手工合并和翻译------------------------
+#: centreon-web/broker_field_translation.php:4
+msgid "Cleanup check interval"
+msgstr "清理检查间隔"
+
+#: centreon-web/broker_field_translation.php:10
+#: centreon-web/www/install/centreon_broker_translation.php:37
+msgid "Correlation file"
+msgstr "相关文件"
+
+#: centreon-web/broker_field_translation.php:11
+msgid "Correlation passive"
+msgstr "相关被动"
+
+#: centreon-web/broker_field_translation.php:28
+msgid "Instance timeout"
+msgstr "实例超时"
+
+#: centreon-web/broker_field_translation.php:47
+msgid "Status naming"
+msgstr "状态命名"
+
+#: centreon-web/broker_field_translation.php:48
+msgid "Storage DB host"
+msgstr "存储数据库主机"
+
+#: centreon-web/broker_field_translation.php:49
+msgid "Storage DB name"
+msgstr "存储数据库名称"
+
+#: centreon-web/broker_field_translation.php:50
+msgid "Storage DB password"
+msgstr "存储数据库密码"
+
+#: centreon-web/broker_field_translation.php:51
+msgid "Storage DB port"
+msgstr "存储数据库端口"
+
+#: centreon-web/broker_field_translation.php:52
+msgid "Storage DB type"
+msgstr "存储数据库类型"
+
+#: centreon-web/broker_field_translation.php:53
+msgid "Storage DB user"
+msgstr "存储数据库用户"
+
+#: centreon-web/www/class/centreon-knowledge/procedures_DB_Connector.class.php:61
+msgid ""
+"Connection to Wiki database failed, please contact your administrator or "
+"read the Centreon online documentation to configure wiki access"
+msgstr "与 Wiki 数据库的连接失败，请联系管理员或阅读 Centreon 在线文档以配置 Wiki 访问"
+
+#: centreon-web/www/install/smarty_translate.php:24
+msgid "File Path"
+msgstr "文件路径"
+
+#: centreon-web/www/install/smarty_translate.php:39
+msgid "UI Notifications"
+msgstr "UI 通知"
+
+#: centreon-web/www/install/smarty_translate.php:45
+msgid "Password Management"
+msgstr "密码管理"
+
+#: centreon-web/www/install/smarty_translate.php:48
+msgid "Preferences"
+msgstr "选项"
+
+#: centreon-web/www/install/smarty_translate.php:51
+msgid "Authentication"
+msgstr "认证"
+
+#: centreon-web/www/install/smarty_translate.php:54
+msgid "Popup notifications"
+msgstr "弹窗通知"
+
+#: centreon-web/www/install/smarty_translate.php:57
+msgid "Sound notifications"
+msgstr "声音通知"
+
+#: centreon-web/www/install/smarty_translate.php:60
+msgid "API Access Configuration"
+msgstr "API 访问配置"
+
+#: centreon-web/www/install/smarty_translate.php:63
+msgid "Autorized contacts"
+msgstr "已授权联系人"
+
+#: centreon-web/www/install/smarty_translate.php:93
+msgid "Proxy options"
+msgstr "代理服务器选项"
+
+#: centreon-web/www/install/smarty_translate.php:96
+msgid "Chart options"
+msgstr "图表选项"
+
+#: centreon-web/www/install/smarty_translate.php:108
+msgid "Modificaton type"
+msgstr "修改类型"
+
+#: centreon-web/www/install/smarty_translate.php:114
+msgid "Object Name"
+msgstr "对象名称"
+
+#: centreon-web/www/install/smarty_translate.php:168
+msgid "Dissociate this view ?"
+msgstr "分离此视图？"
+
+#: centreon-web/www/install/smarty_translate.php:171
+msgid "Dissociate"
+msgstr "分离"
+
+#: centreon-web/www/install/smarty_translate.php:198
+msgid "Partitioning Properties"
+msgstr "分区属性"
+
+#: centreon-web/www/install/smarty_translate.php:201
+msgid "Partition name"
+msgstr "分区名称"
+
+#: centreon-web/www/install/smarty_translate.php:204
+msgid "Creation time"
+msgstr "创建时间"
+
+#: centreon-web/www/install/smarty_translate.php:207
+#: centreon-web/www/install/smarty_translate.php:261
+msgid "Number of entries"
+msgstr "条目数量"
+
+#: centreon-web/www/install/smarty_translate.php:210
+#: centreon-web/www/install/smarty_translate.php:243
+msgid "Data size"
+msgstr "数据大小"
+
+#: centreon-web/www/install/smarty_translate.php:213
+#: centreon-web/www/install/smarty_translate.php:252
+msgid "Index size"
+msgstr "索引大小"
+
+#: centreon-web/www/install/smarty_translate.php:216
+msgid "Total size"
+msgstr "总大小"
+
+#: centreon-web/www/install/smarty_translate.php:228
+msgid "Database Informations"
+msgstr "数据库信息"
+
+#: centreon-web/www/install/smarty_translate.php:231
+msgid "Database Engine"
+msgstr "数据库引擎"
+
+#: centreon-web/www/install/smarty_translate.php:234
+msgid "Engine Name"
+msgstr "引擎名称"
+
+#: centreon-web/www/install/smarty_translate.php:240
+msgid "Centreon Databases Statistics"
+msgstr "Centreon 数据库统计信息"
+
+#: centreon-web/www/install/smarty_translate.php:264
+msgid "Data free"
+msgstr "剩余空间"
+
+#: centreon-web/www/install/smarty_translate.php:282
+msgid "Configuration Actions"
+msgstr "配置动作"
+
+#: centreon-web/www/install/smarty_translate.php:315
+msgid "Real Name"
+msgstr "真实名字"
+
+#: centreon-web/www/install/smarty_translate.php:330
+#: centreon-web/www/include/options/oreon/modules/formModule.php:57
+msgid "Installed"
+msgstr "已安装"
+
+#: centreon-web/www/install/smarty_translate.php:339
+#: centreon-web/www/install/smarty_translate.php:342
+#: centreon-web/www/include/options/oreon/modules/formModule.php:116
+msgid "Install Module"
+msgstr "安装模块"
+
+#: centreon-web/www/install/smarty_translate.php:345
+#: centreon-web/www/install/smarty_translate.php:348
+#: centreon-web/www/include/options/oreon/modules/formModule.php:178
+msgid "Upgrade"
+msgstr "升级"
+
+#: centreon-web/www/install/smarty_translate.php:351
+msgid "Do you confirm the deletion?"
+msgstr "您确认删除吗？"
+
+#: centreon-web/www/install/smarty_translate.php:354
+#: centreon-web/www/install/smarty_translate.php:357
+msgid "Uninstall Module"
+msgstr "卸载模块"
+
+#: centreon-web/www/install/smarty_translate.php:456
+msgid "Time Range Exceptions"
+msgstr "时间范围例外"
+
+#: centreon-web/www/install/smarty_translate.php:459
+msgid "Timeperiods"
+msgstr "时间周期"
+
+#: centreon-web/www/install/smarty_translate.php:465
+msgid "Advanced settings"
+msgstr "高级设置"
+
+#: centreon-web/www/install/smarty_translate.php:471
+msgid "Add new entry"
+msgstr "添加新条目"
+
+#: centreon-web/www/install/smarty_translate.php:513
+#: centreon-web/www/install/smarty_translate.php:546
+msgid "Notification options"
+msgstr "通知选项"
+
+#: centreon-web/www/install/smarty_translate.php:531
+msgid "Extended Info"
+msgstr "扩展信息"
+
+#: centreon-web/www/install/smarty_translate.php:540
+msgid "Notification status"
+msgstr "通知状态"
+
+#: centreon-web/www/install/smarty_translate.php:615
+#: centreon-web/www/include/Administration/configChangelog/viewLogs.php:322
+#: centreon-web/www/include/Administration/configChangelog/viewLogs.php:327
+msgid "looks like a CLAPI action"
+msgstr "看起来像 CLAPI 动作"
+
+#: centreon-web/www/install/smarty_translate.php:762
+msgid "Configuration Files Export"
+msgstr "配置文件导出"
+
+#: centreon-web/www/install/smarty_translate.php:765
+msgid "Polling instances"
+msgstr "采集器实例"
+
+#: centreon-web/www/install/smarty_translate.php:792
+msgid "Poller States"
+msgstr "采集器状态"
+
+#: centreon-web/www/install/smarty_translate.php:801
+msgid "Welcome"
+msgstr "欢迎"
+
+#: centreon-web/www/install/smarty_translate.php:840
+msgid "In Downtime"
+msgstr "在停机时间内"
+
+#: centreon-web/www/install/smarty_translate.php:858
+msgid "Display Chart"
+msgstr "显示图表"
+
+#: centreon-web/src/CentreonLegacy/Core/Menu/Menu.php:217
+msgid "Recurrent downtimes"
+msgstr "周期性停机计划"
+
+#: centreon-web/src/CentreonLegacy/Core/Menu/Menu.php:169
+msgid "Manager"
+msgstr "管理"
+
+#: centreon-web/src/CentreonLegacy/Core/Menu/Menu.php:169
+msgid "Subscription"
+msgstr "订阅"
+
+#: centreon-web/src/CentreonLegacy/Core/Menu/Menu.php:169
+msgid "Platform Status"
+msgstr "平台状态"
+
+#: centreon-web/src/CentreonLegacy/Core/Menu/Menu.php:169
+msgid "Engine Statistics"
+msgstr "引擎统计信息"
+
+#: centreon-web/www/install/smarty_translate.php:942
+msgid "No downtime scheduled"
+msgstr "没有被调度的停机计划"
+
+#: centreon-web/www/install/smarty_translate.php:945
+msgid "Add downtime"
+msgstr "增加停机计划"
+
+#: centreon-web/www/install/smarty_translate.php:948
+msgid "General informations"
+msgstr "一般信息"
+
+#: centreon-web/www/install/steps/process/installStorageDb.php:45
+msgid "Could not find storage database. Session probably expired."
+msgstr "找不到存储数据库。会话可能已过期。"
+
+#: centreon-web/www/install/steps/process/installConfigurationDb.php:50
+msgid "Could not find configuration database. Session probably expired."
+msgstr "找不到配置数据库。会话可能已过期。"
+
+#: centreon-web/www/install/steps/process/installConfigurationDb.php:65
+msgid ""
+"Add open_files_limit=32000 in my.cnf file under the [mysqld] section and "
+"restart MySQL Server."
+msgstr "在 my.cnf 文件中的 [mysqld] 小节下添加 open_files_limit = 32000，然后重新启动MySQL Server。"
+
+#: centreon-web/www/install/steps/process/createDbUser.php:45
+msgid "Could not find database user. Session probably expired."
+msgstr "找不到数据库用户。会话可能已过期。"
+
+#: centreon-web/www/install/steps/process/configFileSetup.php:40
+msgid "Could not find CENTREON_ETC. Session probably expired."
+msgstr "找不到 CENTREON_ETC。会话可能已过期。"
+
+#: centreon-web/www/install/steps/step6.php:74
+msgid "Database Host Address (default: localhost)"
+msgstr "数据库主机地址（默认：localhost）"
+
+#: centreon-web/www/install/steps/step6.php:81
+msgid "Database Port (default: 3306)"
+msgstr "数据库端口（默认值：3306）"
+
+#: centreon-web/www/install/steps/step6.php:88
+msgid "Root password"
+msgstr "Root 密码"
+
+#: centreon-web/www/install/steps/step6.php:95
+msgid "Configuration database name"
+msgstr "配置数据库名称"
+
+#: centreon-web/www/install/steps/step6.php:102
+msgid "Storage database name"
+msgstr "存储数据库名称"
+
+#: centreon-web/www/install/steps/step6.php:109
+msgid "Database user name"
+msgstr "数据库用户名"
+
+#: centreon-web/www/install/steps/step6.php:116
+msgid "Database user password"
+msgstr "数据库用户密码"
+
+#: centreon-web/www/install/steps/step6.php:123
+msgid "Confirm user password"
+msgstr "确认用户密码"
+
+#: centreon-web/www/install/steps/step4.php:52
+msgid "Broker Module information"
+msgstr "Broker 模块信息"
+
+#: centreon-web/www/install/steps/step1.php:48
+msgid ""
+"This installer will help you setup your database and your monitoring "
+"configuration."
+msgstr "该安装程序将帮助您设置数据库及监控配置。"
+
+#: centreon-web/www/install/steps/step5.php:66
+msgid "Login"
+msgstr "登录名"
+
+#: centreon-web/www/install/steps/step5.php:80
+msgid "Confirm password"
+msgstr "确认密码"
+
+#: centreon-web/www/install/steps/step5.php:87
+msgid "First name"
+msgstr "名"
+
+#: centreon-web/www/install/steps/step5.php:94
+msgid "Last name"
+msgstr "姓"
+
+#: centreon-web/www/install/steps/step8.php:45
+msgid "Congratulations, you have successfully installed Centreon!"
+msgstr "恭喜，您已经成功安装了 Centreon！"
+
+#: centreon-web/www/install/steps/step7.php:45
+msgid ""
+"Currently installing database and generating cache... please do not "
+"interrupt this process."
+msgstr "当前正在安装数据库并正在生成缓存...请不要中断此过程。"
+
+#: centreon-web/www/install/steps/step7.php:68
+msgid "Configuration database"
+msgstr "配置数据库"
+
+#: centreon-web/www/install/steps/step7.php:69
+msgid "Storage database"
+msgstr "储存资料库"
+
+#: centreon-web/www/install/steps/step7.php:70
+msgid "Utils database"
+msgstr "实用程序数据库"
+
+#: centreon-web/www/install/steps/step7.php:71
+msgid "Creating database user"
+msgstr "创建数据库用户"
+
+#: centreon-web/www/install/steps/step7.php:72
+msgid "Setting up basic configuration"
+msgstr "设置基本配置"
+
+#: centreon-web/www/install/steps/step7.php:73
+msgid "Setting up configuration file"
+msgstr "设置配置文件"
+
+#: centreon-web/www/install/steps/step7.php:74
+msgid "Partitioning database tables"
+msgstr "分区数据表"
+
+#: centreon-web/www/install/step_upgrade/step4.php:57
+msgid ""
+"<p>Currently upgrading database... please do not interrupt this process.</p>"
+msgstr "<p>当前正在升级数据库...请不要中断此过程。</p>"
+
+#: centreon-web/www/main.php:238
+msgid "You are not in an access group"
+msgstr "您不在访问组中"
+
+#: centreon-web/www/include/Administration/parameters/ldap/form.php:100
+msgid "Use SSL connection"
+msgstr "使用 SSL 连接"
+
+#: centreon-web/www/include/Administration/parameters/ldap/form.php:103
+msgid "Use TLS connection"
+msgstr "使用 TLS 连接"
+
+#: centreon-web/www/include/Administration/parameters/ldap/xml/ldap_host.php:100
+#: centreon-web/www/include/Administration/parameters/ldap/xml/additionalRowXml.php:154
+msgid "Add a LDAP server"
+msgstr "添加 LDAP 服务器"
+
+#: centreon-web/www/include/Administration/parameters/ldap/xml/ldap_host.php:101
+msgid "Hostname"
+msgstr "主机名"
+
+#: centreon-web/www/include/Administration/parameters/ldap/xml/ldap_host.php:106
+#: centreon-web/www/include/Administration/parameters/ldap/xml/additionalRowXml.php:155
+msgid "Do you really wish to remove this entry?"
+msgstr "您真的要删除此条目吗？"
+
+#: centreon-web/www/include/Administration/parameters/knowledgeBase/formKnowledgeBase.php:56
+msgid "Knowledge base database name"
+msgstr "知识库数据库名称"
+
+#: centreon-web/www/include/Administration/parameters/knowledgeBase/formKnowledgeBase.php:58
+msgid "Knowledge base database user"
+msgstr "知识库数据库用户"
+
+#: centreon-web/www/include/Administration/parameters/knowledgeBase/formKnowledgeBase.php:59
+msgid "Knowledge base Database password"
+msgstr "知识库数据库密码"
+
+#: centreon-web/www/include/Administration/parameters/knowledgeBase/formKnowledgeBase.php:60
+msgid "Knowledge base Database host"
+msgstr "知识库数据库主机"
+
+#: centreon-web/www/include/Administration/parameters/knowledgeBase/formKnowledgeBase.php:65
+msgid "Test DB connection"
+msgstr "测试数据库连接"
+
+#: centreon-web/www/include/Administration/parameters/knowledgeBase/formKnowledgeBase.php:68
+msgid "Knowledge base Database prefix"
+msgstr "知识库数据库前缀"
+
+#: centreon-web/www/include/Administration/parameters/centstorage/form.php:119
+msgid "RRDTool database size"
+msgstr "RRDTool 数据库大小"
+
+#: centreon-web/www/include/Administration/parameters/centstorage/form.php:120
+msgid "Retention Duration for Data in MySQL"
+msgstr "MySQL 中的数据的保留期限"
+
+#: centreon-web/www/include/Administration/parameters/centstorage/form.php:121
+msgid "Retention Duration for Downtimes"
+msgstr "停机计划保留时间"
+
+#: centreon-web/www/include/Administration/parameters/centstorage/form.php:122
+msgid "Retention Duration for Comments"
+msgstr "备注的保留期限"
+
+#: centreon-web/www/include/Administration/parameters/centstorage/form.php:123
+msgid "Logs retention duration"
+msgstr "日志保留期限"
+
+#: centreon-web/www/include/Administration/parameters/centstorage/form.php:124
+msgid "Reporting retention duration (dashboard)"
+msgstr "报告保留期限（仪表板）"
+
+#: centreon-web/www/include/Administration/parameters/general/form.php:131
+msgid "Sort by  "
+msgstr "排序属性"
+
+#: centreon-web/www/include/Administration/parameters/general/form.php:152
+msgid "Proxy protocol"
+msgstr "代理协议"
+
+#: centreon-web/www/include/Administration/parameters/rrdtool/form.php:84
+msgid "Unit Properties"
+msgstr "单位属性"
+
+#: centreon-web/www/include/Administration/parameters/rrdtool/form.php:85
+#: centreon-web/www/include/Administration/parameters/rrdtool/form.php:92
+#: centreon-web/www/include/Administration/parameters/rrdtool/form.php:99
+#: centreon-web/www/include/Administration/parameters/rrdtool/form.php:106
+#: centreon-web/www/include/Administration/parameters/rrdtool/form.php:113
+msgid "Font"
+msgstr "字体"
+
+#: centreon-web/www/include/Administration/parameters/rrdtool/form.php:86
+#: centreon-web/www/include/Administration/parameters/rrdtool/form.php:93
+#: centreon-web/www/include/Administration/parameters/rrdtool/form.php:100
+#: centreon-web/www/include/Administration/parameters/rrdtool/form.php:107
+#: centreon-web/www/include/Administration/parameters/rrdtool/form.php:114
+msgid "Font size"
+msgstr "字体大小"
+
+#: centreon-web/www/include/Administration/parameters/rrdtool/form.php:91
+msgid "Title Properties"
+msgstr "标题属性"
+
+#: centreon-web/www/include/Administration/parameters/rrdtool/form.php:98
+msgid "Axis Properties"
+msgstr "图轴属性"
+
+#: centreon-web/www/include/Administration/parameters/rrdtool/form.php:105
+msgid "Legend Properties"
+msgstr "图例属性"
+
+#: centreon-web/www/include/Administration/parameters/rrdtool/form.php:112
+msgid "Watermark Properties"
+msgstr "水印属性"
+
+#: centreon-web/www/include/Administration/parameters/rrdtool/form.php:120
+msgid "Rrdcached configuration : work only with Centreon Broker"
+msgstr "Rrdcached 配置：仅与 Centreon Broker 一起使用"
+
+#: centreon-web/www/include/Administration/parameters/rrdtool/form.php:123
+msgid "Enable RRDCached"
+msgstr "启用 RRDCached"
+
+#: centreon-web/www/include/Administration/parameters/rrdtool/form.php:124
+msgid "TCP Port"
+msgstr "TCP 端口"
+
+#: centreon-web/www/include/Administration/parameters/rrdtool/form.php:125
+msgid "UNIX Socket path"
+msgstr "UNIX 套接字路径"
+
+msgid "No LDAP configuration enabled !"
+msgstr "没有启用 LDAP 配置！"
+
+msgid "Resync data requested."
+msgstr "重新同步请求的数据。"
+
+msgid "Error : unable to read or update the contact data in the DB"
+msgstr "错误：无法读取或更新数据库中的联系人数据"
+
+#: centreon-web/www/include/home/customViews/index.php:117
+msgid ""
+"No view available. To create a new view, please click \"Add view\" button."
+msgstr "没有可用的视图。要创建新视图，请单击“添加视图”按钮。"
+
+#: centreon-web/www/include/home/customViews/index.php:120
+msgid "Create a view"
+msgstr "添加视图"
+
+#: centreon-web/www/include/home/customViews/index.php:156
+msgid "Shared views list"
+msgstr "共享视图列表"
+
+#: centreon-web/www/include/home/customViews/index.php:200
+msgid "Edit a view"
+msgstr "编辑视图"
+
+#: centreon-web/www/include/home/customViews/index.php:249
+msgid "Locked?"
+msgstr "已锁定？"
+
+#: centreon-web/www/include/home/customViews/index.php:260
+msgid "User List"
+msgstr "用户列表"
+
+#: centreon-web/www/include/home/customViews/index.php:280
+msgid "User Group List"
+msgstr "用户组列表"
+
+#: centreon-web/www/include/home/customViews/index.php:301
+#: centreon-web/www/include/home/customViews/index.php:302
+msgid "Add a widget"
+msgstr "添加小部件"
+
+#: centreon-web/www/include/home/customViews/index.php:303
+msgid "Widget Information"
+msgstr "小部件信息"
+
+#: centreon-web/www/include/common/quickSearch.php:84
+#: centreon-web/www/include/common/quickSearch.php:86
+msgid "Service Description Search Key"
+msgstr "服务描述搜索关键字"
+
+#: centreon-web/www/include/common/quickSearch.php:103
+#: centreon-web/www/include/common/quickSearch.php:105
+msgid "Quick Search"
+msgstr "快速搜索"
+
+#: centreon-web/www/include/common/quickSearch.php:107
+msgid "Go"
+msgstr "Go"
+
+#: centreon-web/www/include/common/quickSearch.php:130
+msgid "host"
+msgstr "主机"
+
+#: centreon-web/www/include/common/quickSearch.php:131
+msgid "service"
+msgstr "服务"
+
+#: centreon-web/www/include/common/quickSearch.php:147
+msgid "Reset filters"
+msgstr "重置过滤器"
+
+#: centreon-web/www/include/options/accessLists/define/listLCA.php:155
+msgid "Do you confirm  the duplication ?"
+msgstr "您确认复制吗？"
+
+#: centreon-web/www/include/options/accessLists/define/formLCA.php:239
+msgid "Implied Resources"
+msgstr "缺省资源"
+
+#: centreon-web/www/include/options/accessLists/define/formLCA.php:256
+msgid "Include Host Groups -> Hosts"
+msgstr "包括主机组 -> 主机"
+
+#: centreon-web/www/include/options/accessLists/define/formLCA.php:288
+msgid "Implied page"
+msgstr "缺省页面"
+
+#: centreon-web/www/include/options/accessLists/define/formLCA.php:383
+msgid "topology_name"
+msgstr "拓扑名称"
+
+#: centreon-web/www/include/options/accessLists/define/formLCA.php:419
+msgid "More Actions"
+msgstr "更多动作"
+
+#: centreon-web/www/include/options/oreon/widgets/list.php:91
+msgid "Would you like to install this widget?"
+msgstr "您要安装此小部件吗？"
+
+#: centreon-web/www/include/options/oreon/widgets/list.php:92
+msgid "Are you sure you want to uninstall this widget?"
+msgstr "您确定要卸载此小部件吗？"
+
+#: centreon-web/www/include/options/oreon/widgets/list.php:93
+msgid "Would you like to upgrade this widget?"
+msgstr "您要升级此小部件吗？"
+
+#: centreon-web/www/include/options/oreon/modules/formModule.php:49
+msgid "Module Information"
+msgstr "模块信息"
+
+#: centreon-web/www/include/options/oreon/modules/formModule.php:50
+msgid "Upgrade Information"
+msgstr "升级信息"
+
+#: centreon-web/www/include/options/oreon/modules/formModule.php:51
+msgid "Real name"
+msgstr "真实名字"
+
+#: centreon-web/www/include/options/oreon/modules/formModule.php:52
+msgid "Release"
+msgstr "发行版"
+
+#: centreon-web/www/include/options/oreon/modules/formModule.php:53
+msgid "Base release"
+msgstr "基本发行版"
+
+#: centreon-web/www/include/options/oreon/modules/formModule.php:54
+msgid "Final release"
+msgstr "最终发行版"
+
+#: centreon-web/www/include/options/oreon/modules/formModule.php:58
+msgid "Valid for an upgrade"
+msgstr "一个可用的升级"
+
+#: centreon-web/www/include/options/oreon/modules/formModule.php:86
+#: centreon-web/www/include/options/oreon/modules/formModule.php:149
+msgid "Module installed and registered"
+msgstr "模块已安装并注册"
+
+#: centreon-web/www/include/options/oreon/modules/formModule.php:93
+#: centreon-web/www/include/options/oreon/modules/formModule.php:160
+msgid "SQL file included"
+msgstr "包含 SQL 文件"
+
+#: centreon-web/www/include/options/oreon/modules/formModule.php:102
+#: centreon-web/www/include/options/oreon/modules/formModule.php:167
+msgid "PHP file included"
+msgstr "包含 PHP 文件"
+
+#: centreon-web/www/include/options/oreon/modules/formModule.php:113
+#: centreon-web/www/include/options/oreon/modules/formModule.php:174
+msgid "Unable to install module"
+msgstr "无法安装模块"
+
+#: centreon-web/www/include/options/oreon/modules/listModules.php:221
+#: centreon-web/www/include/options/oreon/modules/listModules.php:222
+#: centreon-web/www/include/options/oreon/modules/listModules.php:223
+msgid "NA"
+msgstr "N/A"
+
+#: centreon-web/www/include/options/oreon/modules/listModules.php:224
+msgid "Impossible"
+msgstr "不可能"
+
+#: centreon-web/www/include/views/graphs/common/makeXML_ListServices.php:70
+msgid "Service list"
+msgstr "服务列表"
+
+#: centreon-web/www/include/views/graphTemplates/formGraphTemplate.php:213
+#: centreon-web/www/include/views/componentTemplates/formComponentTemplate.php:308
+msgid "Pick a color"
+msgstr "选取一种颜色"
+
+#: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:117
+msgid "OK Time"
+msgstr "OK 时间"
+
+#: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:117
+#: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:137
+msgid "OK Mean Time"
+msgstr "OK 平均时间"
+
+#: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:117
+msgid "OK Alerts"
+msgstr "OK 告警"
+
+#: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:118
+msgid "WARNING Time"
+msgstr "WARNING 时间"
+
+#: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:118
+msgid "WARNING Mean Time"
+msgstr "WARNING 平均时间"
+
+#: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:118
+msgid "WARNING Alerts"
+msgstr "WARNING 告警"
+
+#: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:119
+msgid "CRITICAL Time"
+msgstr "CRITICAL 时间"
+
+#: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:119
+msgid "CRITICAL Mean Time"
+msgstr "CRITICAL 平均时间"
+
+#: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:119
+msgid "CRITICAL Alerts"
+msgstr "CRITICAL 告警"
+
+#: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:120
+msgid "UNKNOWN Time"
+msgstr "UNKNOWN 时间"
+
+#: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:120
+msgid "UNKNOWN Mean Time"
+msgstr "UNKNOWN 平均时间"
+
+#: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:120
+msgid "UNKNOWN Alerts"
+msgstr "UNKNOWN 警报"
+
+#: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:121
+msgid "UNDETERMINED Time"
+msgstr "UNDETERMINED 时间"
+
+#: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:121
+msgid "UNDETERMINED Mean Time"
+msgstr "不确定的平均时间"
+
+#: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:121
+msgid "UNDETERMINED Alerts"
+msgstr "UNDETERMINED 告警"
+
+#: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:137
+msgid "OK Alert"
+msgstr "OK 警报"
+
+#: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:138
+msgid "Warning Mean Time"
+msgstr "Warning 平均时间"
+
+#: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:138
+msgid "Warning Alert"
+msgstr "Warning 告警"
+
+#: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:139
+msgid "Unknown Mean Time"
+msgstr "Unknown 平均时间"
+
+#: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:139
+msgid "Unknown Alert"
+msgstr "Unknown 告警"
+
+#: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:140
+msgid "Critical Mean Time"
+msgstr "Critical 平均时间"
+
+#: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:140
+msgid "Critical Alert"
+msgstr "Critical 告警"
+
+#: centreon-web/www/include/reporting/dashboard/csvExport/csv_HostGroupLogs.php:120
+msgid "Hosts Group"
+msgstr "主机组"
+
+#: centreon-web/www/include/reporting/dashboard/csvExport/csv_HostGroupLogs.php:120
+msgid "Up Time"
+msgstr "Up 时间"
+
+#: centreon-web/www/include/reporting/dashboard/csvExport/csv_HostGroupLogs.php:120
+msgid "Up Alerts"
+msgstr "Up 告警"
+
+#: centreon-web/www/include/reporting/dashboard/csvExport/csv_HostGroupLogs.php:121
+msgid "Down Time"
+msgstr "Down 时间"
+
+#: centreon-web/www/include/reporting/dashboard/csvExport/csv_HostGroupLogs.php:121
+msgid "Down Alerts"
+msgstr "Down 告警"
+
+#: centreon-web/www/include/reporting/dashboard/csvExport/csv_HostGroupLogs.php:122
+msgid "Unreachable Time"
+msgstr "Unreachable 时间"
+
+#: centreon-web/www/include/reporting/dashboard/csvExport/csv_HostGroupLogs.php:122
+msgid "Unreachable Alerts"
+msgstr "Unreachable 告警"
+
+#: centreon-web/www/include/reporting/dashboard/csvExport/csv_HostGroupLogs.php:123
+msgid "Undetermined Time"
+msgstr "Undetermined 时间"
+
+#: centreon-web/www/include/configuration/configNagios/formNagios.php:351
+msgid "Initial State Logging Option"
+msgstr "初始状态日志记录选项"
+
+#: centreon-web/www/include/configuration/configNagios/formNagios.php:766
+msgid "Broker need options to be loaded"
+msgstr "Broker 需要加载的选项"
+
+#: centreon-web/www/include/configuration/configObject/host_categories/formHostCategories.php:178
+msgid "Modify a  host category"
+msgstr "修改主机分类"
+
+#: centreon-web/www/include/configuration/configObject/host_categories/formHostCategories.php:180
+msgid "View a  host category"
+msgstr "查看主机分类"
+
+#: centreon-web/www/include/configuration/configObject/command/minCommand.php:92
+msgid "View command definition"
+msgstr "查看命令定义"
+
+#: centreon-web/www/include/configuration/configObject/command/minCommand.php:98
+msgid "Notification command"
+msgstr "通知命令"
+
+#: centreon-web/www/include/configuration/configObject/command/minCommand.php:101
+msgid "Check command"
+msgstr "检查命令"
+
+#: centreon-web/www/include/configuration/configObject/command/minCommand.php:104
+msgid "Information command"
+msgstr "信息指令"
+
+#: centreon-web/www/include/configuration/configObject/command/minCommand.php:106
+msgid "No command selected"
+msgstr "未选择命令"
+
+#: centreon-web/www/include/configuration/configObject/command/minCommand.php:126
+msgid "Notif"
+msgstr "通知"
+
+#: centreon-web/www/include/configuration/configObject/command/formCommand.php:292
+msgid "Test the plugin"
+msgstr "测试插件"
+
+#: centreon-web/www/include/configuration/configObject/command/minPlayCommand.php:106
+msgid "Could not find macro "
+msgstr "找不到宏"
+
+#: centreon-web/www/include/configuration/configObject/command/minPlayCommand.php:107
+msgid "ERROR"
+msgstr "ERROR"
+
+#: centreon-web/www/include/configuration/configObject/command/minPlayCommand.php:126
+msgid "Directory traversal detected"
+msgstr "检测到目录遍历"
+
+#: centreon-web/www/include/configuration/configObject/command/minPlayCommand.php:141
+msgid "Plugin has to be in : "
+msgstr "插件必须位于："
+
+#: centreon-web/www/include/configuration/configObject/command/minPlayCommand.php:147
+msgid "Plugin Test"
+msgstr "插件测试"
+
+#: centreon-web/www/include/configuration/configObject/command/minPlayCommand.php:152
+msgid "Plugin test"
+msgstr "插件测试"
+
+#: centreon-web/www/include/configuration/configObject/meta_service/metric.php:117
+msgid "View a Meta Service indicator"
+msgstr "查看元服务指示器"
+
+#: centreon-web/www/include/configuration/configObject/hostgroup/listHostGroup.php:79
+msgid "Enabled HostGroups"
+msgstr "启用的主机组"
+
+#: centreon-web/www/include/configuration/configObject/hostgroup/listHostGroup.php:80
+msgid "Disabled HostGroups"
+msgstr "禁用的主机组"
+
+#: centreon-web/www/include/configuration/configObject/escalation/ViewEscalation.php:103
+msgid "Escalations View"
+msgstr "事态升级视图"
+
+#: centreon-web/www/include/configuration/configObject/escalation/ViewEscalation.php:107
+msgid "Hostgroups Escalation"
+msgstr "主机组升级"
+
+#: centreon-web/www/include/configuration/configObject/escalation/ViewEscalation.php:114
+msgid "Hosts Escalation"
+msgstr "主机升级"
+
+#: centreon-web/www/include/configuration/configObject/escalation/ViewEscalation.php:121
+msgid "Services Escalation"
+msgstr "服务升级"
+
+#: centreon-web/www/include/configuration/configObject/servicegroup/formServiceGroup.php:166
+msgid "ALL"
+msgstr "ALL"
+
+#: centreon-web/www/include/configuration/configCentreonBroker/formCentreonBroker.php:102
+msgid "Retention path"
+msgstr "保留路径"
+
+#: centreon-web/www/include/configuration/configCentreonBroker/formCentreonBroker.php:181
+msgid "Mandatory retention path"
+msgstr "强制保留路径"
+
+#: centreon-web/www/include/configuration/configServers/formServers.php:113
+msgid "Monitoring Engine Init Script"
+msgstr "监视引擎初始化脚本"
+
+#: centreon-web/www/include/configuration/configServers/formServers.php:114
+msgid "Init System"
+msgstr "初始化系统"
+
+#: centreon-web/www/include/configuration/configServers/listServers.php:112
+msgid "Localhost"
+msgstr "localhost"
+
+#: centreon-web/www/include/configuration/configServers/listServers.php:117
+msgid "Start time"
+msgstr "开始时间"
+
+#: centreon-web/www/include/configuration/configServers/listServers.php:214
+msgid ""
+"Only services and hosts are taken in account in order to calculate this "
+"status. If you modify a template, it won't tell you the configuration had "
+"changed."
+msgstr "仅考虑服务和主机的调整来判断此状态。如果您修改模板，它不会告诉您配置已更改。"
+
+#: centreon-web/www/include/configuration/configServers/listServers.php:245
+msgid "Update informations"
+msgstr "更新信息"
+
+#: centreon-web/www/include/core/menu/menu.php:165
+msgid "Right Click here to add an autologin link directly to your bookmarks"
+msgstr "右键单击此处，将自动登录链接直接添加到您的书签"
+
+#: centreon-web/www/include/core/menu/menu.php:168
+msgid "Please define autologin authentication key in your profile."
+msgstr "请在个人资料中定义自动登录身份验证密钥。"
+
+#: centreon-web/www/include/core/menu/menu.php:265
+msgid "Connected Users"
+msgstr "连接的用户"
+
+#: centreon-web/www/include/monitoring/status/TopCounter/xml/statusCounter.php:260
+msgid "OK: all pollers are running"
+msgstr "OK：所有采集器都在运行"
+
+#: centreon-web/www/include/monitoring/status/TopCounter/xml/statusCounter.php:264
+#, php-format
+msgid "Latency detected on %s; check configuration for better optimisation"
+msgstr "在 ％s 上检测到延迟；检查配置以获得更好的优化"
+
+#: centreon-web/www/include/monitoring/status/TopCounter/xml/statusCounter.php:266
+msgid "OK: no latency detected on your platform"
+msgstr "OK：在您的平台上未检测到延迟"
+
+#: centreon-web/www/include/monitoring/status/TopCounter/xml/statusCounter.php:270
+msgid ""
+"Some database poller updates are not active; check your Monitoring platform"
+msgstr "某些数据库采集器更新无效。请检查您的监控平台"
+
+#: centreon-web/www/include/monitoring/status/TopCounter/xml/statusCounter.php:272
+msgid "OK: all database poller updates are active"
+msgstr "OK：所有数据库采集器更新均处于活动状态"
+
+#: centreon-web/src/CentreonLegacy/Core/Menu/Menu.php:137(MBI)
+msgid "General options"
+msgstr "常规选项"
+
+#: centreon-web/src/CentreonLegacy/Core/Menu/Menu.php:137(MBI)
+msgid "Job groups"
+msgstr "作业分组"
+
+#: centreon-web/src/CentreonLegacy/Core/Menu/Menu.php:137(MBI)
+msgid "Jobs"
+msgstr "作业"
+
+#: centreon-web/src/CentreonLegacy/Core/Menu/Menu.php:137(MBI)
+msgid "Logos"
+msgstr "商标"
+
+#: centreon-web/src/CentreonLegacy/Core/Menu/Menu.php:137(MBI)
+msgid "Publication rules"
+msgstr "发布规则"
+
+#: centreon-web/src/CentreonLegacy/Core/Menu/Menu.php:137(MBI)
+msgid "Report design groups"
+msgstr "报告设计分组"
+
+#: centreon-web/src/CentreonLegacy/Core/Menu/Menu.php:137(MBI)
+msgid "Report designs"
+msgstr "报告设计"
+
+#: centreon-web/src/CentreonLegacy/Core/Menu/Menu.php:137(MBI)
+msgid "Report view"
+msgstr "报告视图"
+
+#: centreon-web/src/CentreonLegacy/Core/Menu/Menu.php:137(MBI)
+msgid "Trash"
+msgstr "废弃"
+
+#: -----------上述词条从法语messages.po中手工合并和翻译------------------------
