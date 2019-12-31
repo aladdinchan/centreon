@@ -2190,6 +2190,9 @@ msgid "Status"
 msgstr "状态"
 
 #: /centreon-web/www/install/smarty_translate.php:99
+msgid "Virtual Metrics"
+msgstr "虚拟指标"
+
 msgid "Virtual metrics"
 msgstr "虚拟指标"
 
@@ -3548,7 +3551,7 @@ msgstr "服务：禁用检查"
 #: /centreon-web/www/include/monitoring/status/Services/serviceSummary.php:166
 #: /centreon-web/www/include/monitoring/status/Services/serviceGrid.php:167
 msgid "Hosts : Acknowledge"
-msgstr "主机：知情信息"
+msgstr "主机：知情"
 
 #: /centreon-web/www/include/monitoring/status/ServicesServiceGroups/serviceGridBySG.php:200
 #: /centreon-web/www/include/monitoring/status/ServicesServiceGroups/serviceGridBySG.php:223
@@ -3561,7 +3564,7 @@ msgstr "主机：知情信息"
 #: /centreon-web/www/include/monitoring/status/Services/serviceSummary.php:167
 #: /centreon-web/www/include/monitoring/status/Services/serviceGrid.php:168
 msgid "Hosts : Disacknowledge"
-msgstr "主机：取消知情"
+msgstr "主机：不知情"
 
 #: /centreon-web/www/include/monitoring/status/ServicesServiceGroups/serviceGridBySG.php:201
 #: /centreon-web/www/include/monitoring/status/ServicesServiceGroups/serviceGridBySG.php:224
@@ -4739,7 +4742,7 @@ msgstr "已禁用"
 #: /centreon-web/www/include/options/accessLists/groupsACL/listGroupConfig.php:188
 #: /centreon-web/www/include/options/accessLists/resourcesACL/listsResourcesAccess.php:194
 msgid "Disable"
-msgstr "Disable"
+msgstr "禁用"
 
 #: /centreon-web/www/include/monitoring/objectDetails/serviceDetails.php:322
 #: /centreon-web/www/include/monitoring/objectDetails/hostDetails.php:78
@@ -4767,12 +4770,12 @@ msgstr "Disable"
 #: /centreon-web/www/include/options/accessLists/groupsACL/listGroupConfig.php:187
 #: /centreon-web/www/include/options/accessLists/resourcesACL/listsResourcesAccess.php:193
 msgid "Enable"
-msgstr "Enable"
+msgstr "启用"
 
 #: /centreon-web/www/include/monitoring/objectDetails/serviceDetails.php:520
 #: /centreon-web/www/include/monitoring/objectDetails/hostDetails.php:425
 msgid "ACKNOWLEDGED"
-msgstr "ACKNOWLEDGED"
+msgstr "已知情"
 
 #: /centreon-web/www/include/monitoring/objectDetails/serviceDetails.php:552
 #: /centreon-web/www/include/configuration/configObject/escalation/formEscalation.php:191
@@ -12102,7 +12105,7 @@ msgstr "知情某个服务"
 
 #: /centreon-web/www/include/options/accessLists/actionsACL/formActionsAccess.php:116
 msgid "Disacknowledge a service"
-msgstr "取消知情某个服务"
+msgstr "不知情某个服务"
 
 #: /centreon-web/www/include/options/accessLists/actionsACL/formActionsAccess.php:117
 msgid "Re-schedule the next check for a service"
@@ -13830,4 +13833,18 @@ msgstr "分离图表"
 msgid "Chart split"
 msgstr "图表分离展示"
 
+#: 插件包页面
+msgid "Plugin Packs Manager"
+msgstr "插件包管理"
 
+msgid "Category"
+msgstr "分类"
+
+msgid "Recently updated"
+msgstr "最近更新的"
+
+msgid "Keyword"
+msgstr "关键字"
+
+msgid "Loading plugin packs"
+msgstr "加载插件包..."
