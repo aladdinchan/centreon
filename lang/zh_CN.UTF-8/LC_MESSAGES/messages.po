@@ -1684,7 +1684,7 @@ msgstr "选择链接的远程服务器"
 
 #: /centreon-web/www/install/react_translation.php:69
 msgid "as"
-msgstr "用户名："
+msgstr "登录名："
 
 #: /centreon-web/www/install/react_translation.php:70
 msgid "Server Configuration"
@@ -1781,7 +1781,7 @@ msgstr "不要使用配置的代理连接到此服务器"
 #: /centreon-web/www/include/options/accessLists/resourcesACL/formResourcesAccess.php:243
 #: /centreon-web/www/include/options/accessLists/resourcesACL/formResourcesAccess.php:555
 msgid "Filters"
-msgstr "筛选器"
+msgstr "过滤器"
 
 #: /centreon-web/www/install/smarty_translate.php:6
 msgid "Add view"
@@ -2538,7 +2538,7 @@ msgstr "持久储存"
 #: /centreon-web/www/include/options/accessLists/reloadACL/reloadACL.php:158
 #: /centreon-web/www/include/options/accessLists/resourcesACL/listsResourcesAccess.php:190
 msgid "More actions..."
-msgstr "更多操作..."
+msgstr "更多动作..."
 
 #: /centreon-web/www/install/smarty_translate.php:270
 #: /centreon-web/www/include/monitoring/downtime/xml/broker/makeXMLForDowntime.php:86
@@ -2584,7 +2584,7 @@ msgstr "结束时间"
 #: /centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:217
 #: /centreon-web/www/include/reporting/dashboard/initReport.php:172
 msgid "Duration"
-msgstr "持续时间"
+msgstr "时长"
 
 #: /centreon-web/www/install/smarty_translate.php:285
 msgid "Started"
@@ -3818,7 +3818,7 @@ msgstr "严重程度"
 #: /centreon-web/www/include/monitoring/status/Services/serviceJS.php:128
 #: /centreon-web/www/include/monitoring/status/Services/xml/serviceXML.php:317
 msgid "Hard State Duration"
-msgstr "硬状态持续时间"
+msgstr "确诊时长"
 
 #: /centreon-web/www/include/monitoring/status/Hosts/xml/hostXML.php:291
 msgid "Top Priority Hosts"
@@ -3826,12 +3826,12 @@ msgstr "最优先主机"
 
 #: /centreon-web/www/include/monitoring/status/Hosts/xml/hostXML.php:292
 msgid "Secondary Priority Hosts"
-msgstr "次要优先主机"
+msgstr "次优先主机"
 
 #: /centreon-web/www/include/monitoring/status/Hosts/xml/hostXML.php:293
 #: /centreon-web/www/include/monitoring/status/Services/xml/serviceXML.php:319
 msgid "HTTP Action Link"
-msgstr "HTTP操作链接"
+msgstr "HTTP 动作链接"
 
 #: /centreon-web/www/include/monitoring/status/Hosts/xml/hostXML.php:294
 #: /centreon-web/www/include/monitoring/status/Services/xml/serviceXML.php:328
@@ -3887,7 +3887,7 @@ msgstr "按上次更改日期排序"
 
 #: /centreon-web/www/include/monitoring/status/Services/serviceJS.php:130
 msgid "Sort by last hard state change date"
-msgstr "按上次硬状态更改日期排序"
+msgstr "按上次状态确诊变化时间排序"
 
 #: /centreon-web/www/include/monitoring/status/Services/serviceJS.php:140
 msgid "Sort by last check"
@@ -4975,11 +4975,11 @@ msgstr "被动"
 
 #: /centreon-web/www/include/monitoring/objectDetails/serviceDetails.php:651
 msgid "SOFT"
-msgstr "SOFT"
+msgstr "存疑"
 
 #: /centreon-web/www/include/monitoring/objectDetails/serviceDetails.php:651
 msgid "HARD"
-msgstr "HARD"
+msgstr "确诊"
 
 #: /centreon-web/www/include/monitoring/objectDetails/serviceDetails.php:675
 msgid "Status Graph"
@@ -6156,7 +6156,7 @@ msgstr "分离组件"
 #: /centreon-web/www/include/views/graphTemplates/listGraphTemplates.php:86
 #: /centreon-web/www/include/views/graphTemplates/formGraphTemplate.php:104
 msgid "Base"
-msgstr "基础"
+msgstr "1K的基准值"
 
 #: /centreon-web/www/include/views/graphTemplates/formGraphTemplate.php:76
 msgid "Add a Graph Template"
@@ -7175,7 +7175,7 @@ msgstr "转换被动主机检查选项"
 
 #: /centreon-web/www/include/configuration/configNagios/formNagios.php:446
 msgid "Passive Host Checks Are SOFT Option"
-msgstr "被动主机检查是 SOFT 选项"
+msgstr "被动主机检查是 “存疑” 选项"
 
 #: /centreon-web/www/include/configuration/configNagios/formNagios.php:455
 msgid "Auto-Rescheduling Option"
@@ -7215,7 +7215,7 @@ msgstr "主机抖动高阈值"
 
 #: /centreon-web/www/include/configuration/configNagios/formNagios.php:488
 msgid "Soft Service Dependencies Option"
-msgstr "软服务依赖项选项"
+msgstr "“存疑” 服务依赖项选项"
 
 #: /centreon-web/www/include/configuration/configNagios/formNagios.php:493
 msgid "Service Check Timeout"
@@ -7922,7 +7922,7 @@ msgstr "关联的采集器"
 #: /centreon-web/www/include/configuration/configObject/service_categories/listServiceCategories.php:222
 #: /centreon-web/www/include/options/media/images/listImg.php:204
 msgid "More actions"
-msgstr "更多操作"
+msgstr "更多动作"
 
 #: /centreon-web/www/include/configuration/configResources/formResources.php:82
 msgid "Add a Resource"
@@ -9971,11 +9971,11 @@ msgstr "OpenLDAP："
 
 #: /centreon-web/www/include/configuration/configObject/contact/ldapImportContact.php:81
 msgid "Filter Examples"
-msgstr "筛选器范例"
+msgstr "过滤器范例"
 
 #: /centreon-web/www/include/configuration/configObject/contact/ldapImportContact.php:102
 msgid "Filter"
-msgstr "筛选器"
+msgstr "过滤器"
 
 #: /centreon-web/www/include/configuration/configObject/contact/ldapImportContact.php:148
 msgid "Import from LDAP servers"
@@ -10694,31 +10694,31 @@ msgstr "默认页面"
 
 #: /centreon-web/www/include/Administration/myAccount/formMyAccount.php:264
 msgid "Show Up status"
-msgstr "显示 Up 状态"
+msgstr "显示 “开机” 状态"
 
 #: /centreon-web/www/include/Administration/myAccount/formMyAccount.php:265
 msgid "Show Down status"
-msgstr "显示 Down 状态"
+msgstr "显示 “关机” 状态"
 
 #: /centreon-web/www/include/Administration/myAccount/formMyAccount.php:266
 msgid "Show Unreachable status"
-msgstr "显示 Unreachable 状态"
+msgstr "显示 “无法到达” 状态"
 
 #: /centreon-web/www/include/Administration/myAccount/formMyAccount.php:267
 msgid "Show OK status"
-msgstr "显示 OK 状态"
+msgstr "显示 “正常” 状态"
 
 #: /centreon-web/www/include/Administration/myAccount/formMyAccount.php:268
 msgid "Show Warning status"
-msgstr "显示 Warning 状态"
+msgstr "显示 “警示” 状态"
 
 #: /centreon-web/www/include/Administration/myAccount/formMyAccount.php:269
 msgid "Show Critical status"
-msgstr "显示 Critical 状态"
+msgstr "显示 “故障” 状态"
 
 #: /centreon-web/www/include/Administration/myAccount/formMyAccount.php:270
 msgid "Show Unknown status"
-msgstr "显示 Unknown 状态"
+msgstr "显示 “未知” 状态"
 
 #: /centreon-web/www/include/Administration/myAccount/formMyAccount.php:277
 msgid "New version"
@@ -10730,31 +10730,31 @@ msgstr "旧版"
 
 #: /centreon-web/www/include/Administration/myAccount/formMyAccount.php:293
 msgid "Sound for Up status"
-msgstr "开机 状态的声音"
+msgstr "“开机” 状态的声音"
 
 #: /centreon-web/www/include/Administration/myAccount/formMyAccount.php:294
 msgid "Sound for Down status"
-msgstr "关机 状态的声音"
+msgstr "“关机” 状态的声音"
 
 #: /centreon-web/www/include/Administration/myAccount/formMyAccount.php:295
 msgid "Sound for Unreachable status"
-msgstr "无法到达 状态的声音"
+msgstr "“无法到达” 状态的声音"
 
 #: /centreon-web/www/include/Administration/myAccount/formMyAccount.php:296
 msgid "Sound for OK status"
-msgstr "正常 状态的声音"
+msgstr "“正常” 状态的声音"
 
 #: /centreon-web/www/include/Administration/myAccount/formMyAccount.php:297
 msgid "Sound for Warning status"
-msgstr "警示 状态的声音"
+msgstr "“警示” 状态的声音"
 
 #: /centreon-web/www/include/Administration/myAccount/formMyAccount.php:298
 msgid "Sound for Critical status"
-msgstr "故障 状态的声音"
+msgstr "“故障” 状态的声音"
 
 #: /centreon-web/www/include/Administration/myAccount/formMyAccount.php:299
 msgid "Sound for Unknown status"
-msgstr "未知 状态的声音"
+msgstr "“未知” 状态的声音"
 
 #: /centreon-web/www/include/Administration/myAccount/formMyAccount.php:325
 msgid "Compulsory name"
@@ -11137,7 +11137,7 @@ msgstr "MySQL 数据库中性能数据的保留期限"
 
 #: /centreon-web/www/include/Administration/parameters/centstorage/form.php:130
 msgid "Retention duration for downtimes"
-msgstr "停机计划的保留时间"
+msgstr "停机计划的保留期限"
 
 #: /centreon-web/www/include/Administration/parameters/centstorage/form.php:131
 msgid "Retention duration for comments"
@@ -12667,7 +12667,7 @@ msgstr "将此视图设置为默认视图吗？"
 msgid ""
 "No widget configured in this view. Please add a new widget with the \"Add "
 "widget\" button."
-msgstr "此视图中未配置任何小部件。请使用“添加小部件”按钮添加新的小部件。"
+msgstr "此视图中未配置任何小部件。请使用 “添加小部件” 按钮添加新的小部件。"
 
 #: /centreon-web/www/include/home/customViews/formLoad.php:50
 msgid "Load a public view"
@@ -13286,7 +13286,7 @@ msgstr "错误：无法读取或更新数据库中的联系人数据"
 #: centreon-web/www/include/home/customViews/index.php:117
 msgid ""
 "No view available. To create a new view, please click \"Add view\" button."
-msgstr "没有可用的视图。要创建新视图，请单击“添加视图”按钮。"
+msgstr "没有可用的视图。要创建新视图，请单击 “添加视图” 按钮。"
 
 #: centreon-web/www/include/home/customViews/index.php:120
 msgid "Create a view"
@@ -13452,92 +13452,92 @@ msgstr "选取一种颜色"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:117
 msgid "OK Time"
-msgstr "正常状态 时间"
+msgstr "“正常” 状态时间"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:117
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:137
 msgid "OK Mean Time"
-msgstr "正常状态 平均时间"
+msgstr "“正常” 状态平均时间"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:117
 msgid "OK Alerts"
-msgstr "正常状态 告警"
+msgstr "“正常” 状态告警"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:118
 msgid "WARNING Time"
-msgstr "警示状态 时间"
+msgstr "“警示” 状态时间"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:118
 msgid "WARNING Mean Time"
-msgstr "警示状态 平均时间"
+msgstr "“警示” 状态平均时间"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:118
 msgid "WARNING Alerts"
-msgstr "警示状态 告警"
+msgstr "“警示” 状态告警"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:119
 msgid "CRITICAL Time"
-msgstr "故障状态 时间"
+msgstr "“故障” 状态时间"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:119
 msgid "CRITICAL Mean Time"
-msgstr "故障状态 平均时间"
+msgstr "“故障” 状态平均时间"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:119
 msgid "CRITICAL Alerts"
-msgstr "故障状态 告警"
+msgstr "“故障” 状态告警"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:120
 msgid "UNKNOWN Time"
-msgstr "未知状态 时间"
+msgstr "“未知” 状态时间"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:120
 msgid "UNKNOWN Mean Time"
-msgstr "未知状态 平均时间"
+msgstr "“未知” 状态平均时间"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:120
 msgid "UNKNOWN Alerts"
-msgstr "未知状态 警报"
+msgstr "“未知” 状态警报"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:121
 msgid "UNDETERMINED Time"
-msgstr "无法确定状态 时间"
+msgstr "“无法确定” 状态时间"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:121
 msgid "UNDETERMINED Mean Time"
-msgstr "无法确定状态 平均时间"
+msgstr "“无法确定” 状态平均时间"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:121
 msgid "UNDETERMINED Alerts"
-msgstr "无法确定状态 告警"
+msgstr "“无法确定” 状态告警"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:137
 msgid "OK Alert"
-msgstr "正常状态 告警"
+msgstr "“正常” 状态告警"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:138
 msgid "Warning Mean Time"
-msgstr "警示状态 平均时间"
+msgstr "“警示” 状态平均时间"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:138
 msgid "Warning Alert"
-msgstr "警示状态 告警"
+msgstr "“警示” 状态告警"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:139
 msgid "Unknown Mean Time"
-msgstr "未知状态 平均时间"
+msgstr "“未知” 状态平均时间"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:139
 msgid "Unknown Alert"
-msgstr "未知状态 告警"
+msgstr "“未知” 状态告警"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:140
 msgid "Critical Mean Time"
-msgstr "故障状态 平均时间"
+msgstr "“故障” 状态平均时间"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:140
 msgid "Critical Alert"
-msgstr "故障状态 告警"
+msgstr "“故障” 状态告警"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_HostGroupLogs.php:120
 msgid "Hosts Group"
@@ -13545,31 +13545,31 @@ msgstr "主机组"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_HostGroupLogs.php:120
 msgid "Up Time"
-msgstr "开机状态 时间"
+msgstr "“开机” 状态时间"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_HostGroupLogs.php:120
 msgid "Up Alerts"
-msgstr "开机状态 告警"
+msgstr "“开机” 状态告警"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_HostGroupLogs.php:121
 msgid "Down Time"
-msgstr "关机状态 时间"
+msgstr "“关机” 状态时间"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_HostGroupLogs.php:121
 msgid "Down Alerts"
-msgstr "关机状态 告警"
+msgstr "“关机” 状态告警"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_HostGroupLogs.php:122
 msgid "Unreachable Time"
-msgstr "无法到达状态 时间"
+msgstr "“无法到达” 状态时间"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_HostGroupLogs.php:122
 msgid "Unreachable Alerts"
-msgstr "无法到达状态 告警"
+msgstr "“无法到达” 状态告警"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_HostGroupLogs.php:123
 msgid "Undetermined Time"
-msgstr "无法确定状态 时间"
+msgstr "“无法确定” 状态时间"
 
 #: centreon-web/www/include/configuration/configNagios/formNagios.php:351
 msgid "Initial State Logging Option"
@@ -13801,3 +13801,33 @@ msgstr "配置文件选项"
 #： 日志页面
 msgid "Objects"
 msgstr "对象"
+
+#： 性能|图形页
+msgid "Chart"
+msgstr "图表"
+
+msgid "Chart Filters"
+msgstr "图表过滤器"
+
+msgid "Filter by Host"
+msgstr "按主机过滤"
+
+msgid "Filter by Hostgroup"
+msgstr "按主机组过滤"
+
+msgid "Filter by Servicegroup"
+msgstr "按服务组过滤"
+
+msgid "Display multiple periods"
+msgstr "显示多个时段"
+
+msgid "Chart periods"
+msgstr "图表多时段展示"
+
+msgid "Split chart"
+msgstr "分离图表"
+
+msgid "Chart split"
+msgstr "图表分离展示"
+
+
