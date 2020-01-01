@@ -7376,11 +7376,11 @@ msgstr "非法的宏输出字符"
 
 #: /centreon-web/www/include/configuration/configNagios/formNagios.php:635
 msgid "Regular Expression Matching Option"
-msgstr "正则表达式匹配选项"
+msgstr "自动开启正则表达式匹配"
 
 #: /centreon-web/www/include/configuration/configNagios/formNagios.php:641
 msgid "True Regular Expression Matching Option"
-msgstr "True 正则表达式匹配选项"
+msgstr "总是使用正则表达式匹配"
 
 #: /centreon-web/www/include/configuration/configNagios/formNagios.php:646
 msgid "Multiple Broker Module"
