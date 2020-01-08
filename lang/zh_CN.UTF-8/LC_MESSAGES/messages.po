@@ -746,7 +746,7 @@ msgstr "全部"
 
 #: /centreon-web/www/class/centreon-clapi/centreon.Config.Poller.class.php:191
 msgid "OK: A reload signal has been sent to '"
-msgstr "正常：已将重新加载信号发送到 '"
+msgstr "OK：已将重新加载信号发送到 '"
 
 #: /centreon-web/www/class/centreon-clapi/centreon.Config.Poller.class.php:259
 msgid "OK: A restart signal has been sent to '"
@@ -1166,7 +1166,7 @@ msgstr "主机"
 #: /centreon-web/www/install/menu_translation.php:96
 #: /centreon-web/www/include/options/media/images/formDirectory.php:133
 msgid "Images"
-msgstr "图像"
+msgstr "图片"
 
 #: /centreon-web/www/install/menu_translation.php:97
 msgid "Indicators"
@@ -6186,7 +6186,7 @@ msgstr "模板名称"
 
 #: /centreon-web/www/include/views/graphTemplates/formGraphTemplate.php:90
 msgid "Image Type"
-msgstr "图像类型"
+msgstr "图片类型"
 
 #: /centreon-web/www/include/views/graphTemplates/formGraphTemplate.php:91
 msgid "Vertical Label"
@@ -7174,11 +7174,11 @@ msgstr "最大检查结果收集时间"
 
 #: /centreon-web/www/include/configuration/configNagios/formNagios.php:440
 msgid "Translate Passive Host Checks Option"
-msgstr "转换被动主机检查选项"
+msgstr "被动主机检查的 “关机”/“无法到达” 状态转换成本地监控引擎中的正确值"
 
 #: /centreon-web/www/include/configuration/configNagios/formNagios.php:446
 msgid "Passive Host Checks Are SOFT Option"
-msgstr "被动主机检查是 “存疑” 选项"
+msgstr "将被动主机检查结果认定为 “存疑” "
 
 #: /centreon-web/www/include/configuration/configNagios/formNagios.php:455
 msgid "Auto-Rescheduling Option"
@@ -8586,7 +8586,7 @@ msgstr "一个主机可以有多个模板，它们的顺序非常重要"
 #: /centreon-web/www/include/configuration/configObject/host_template_model/formHostTemplateModel.php:244
 #: /centreon-web/www/include/configuration/configObject/host/formHost.php:418
 msgid "Here is a self-explanatory image."
-msgstr "这是一个不言自明的图像。"
+msgstr "这是一个不言自明的图片。"
 
 #: /centreon-web/www/include/configuration/configObject/host_template_model/formHostTemplateModel.php:246
 #: /centreon-web/www/include/configuration/configObject/host/formHost.php:420
@@ -8952,7 +8952,7 @@ msgstr "Alt 图标"
 #: /centreon-web/www/include/configuration/configObject/host_template_model/formHostTemplateModel.php:744
 #: /centreon-web/www/include/configuration/configObject/host/formHost.php:975
 msgid "Status Map Image"
-msgstr "状态地图图像"
+msgstr "状态地图"
 
 #: /centreon-web/www/include/configuration/configObject/host_template_model/formHostTemplateModel.php:749
 #: /centreon-web/www/include/configuration/configObject/host/formHost.php:980
@@ -12494,7 +12494,7 @@ msgstr "请选择一个用户以显示资源"
 
 #: /centreon-web/www/include/options/media/images/formImg.php:88
 msgid "Add Image(s)"
-msgstr "添加图像"
+msgstr "添加图片"
 
 #: /centreon-web/www/include/options/media/images/formImg.php:92
 #: /centreon-web/www/include/options/media/images/formImg.php:120
@@ -12518,7 +12518,7 @@ msgstr "图片名称"
 #: /centreon-web/www/include/options/media/images/formImg.php:156
 #: /centreon-web/www/include/options/media/images/listImg.php:82
 msgid "Image"
-msgstr "图像"
+msgstr "图片"
 
 #: /centreon-web/www/include/options/media/images/formImg.php:144
 msgid "Compulsory image name"
@@ -12526,7 +12526,7 @@ msgstr "图片名称是必填项"
 
 #: /centreon-web/www/include/options/media/images/formImg.php:146
 msgid "View Image"
-msgstr "查看图像"
+msgstr "查看图片"
 
 #: /centreon-web/www/include/options/media/images/formImg.php:181
 msgid "Return to list"
@@ -12550,7 +12550,7 @@ msgstr "添加了新目录："
 
 #: /centreon-web/www/include/options/media/images/syncDir.php:109
 msgid "New images added :"
-msgstr "添加了新图像："
+msgstr "添加了新图片："
 
 #: /centreon-web/www/include/options/media/images/syncDir.php:110
 msgid "Convert gd2 -> png :"
@@ -12578,7 +12578,7 @@ msgstr "空目录"
 
 #: /centreon-web/www/include/options/media/images/listImg.php:206
 msgid "Move images"
-msgstr "移动图像"
+msgstr "移动图片"
 
 #: /centreon-web/www/include/options/media/images/listImg.php:225
 msgid "Synchronize Media Directory"
