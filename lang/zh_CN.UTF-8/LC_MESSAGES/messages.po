@@ -1563,11 +1563,11 @@ msgstr "服务"
 
 #: /centreon-web/www/install/react_translation.php:39
 msgid "Critical services"
-msgstr "故障 "
+msgstr "紧急 "
 
 #: /centreon-web/www/install/react_translation.php:40
 msgid "Warning services"
-msgstr "警示 "
+msgstr "警告 "
 
 #: /centreon-web/www/install/react_translation.php:41
 msgid "Unknown services"
@@ -4105,12 +4105,12 @@ msgstr "执行时间"
 #: /centreon-web/www/include/monitoring/status/Services/xml/makeXMLForOneService.php:244
 #: /centreon-web/www/include/reporting/dashboard/xmlInformations/initXmlFeed.php:85
 msgid "CRITICAL"
-msgstr "故障"
+msgstr "紧急"
 
 #: /centreon-web/www/include/monitoring/status/Services/xml/makeXMLForOneService.php:248
 #: /centreon-web/www/include/reporting/dashboard/xmlInformations/initXmlFeed.php:84
 msgid "WARNING"
-msgstr "警示"
+msgstr "警告"
 
 #: /centreon-web/www/include/monitoring/status/Services/xml/makeXMLForOneService.php:252
 #: /centreon-web/www/include/reporting/dashboard/xmlInformations/initXmlFeed.php:86
@@ -4202,7 +4202,7 @@ msgstr "服务：设置停机计划"
 #: /centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:126
 #: /centreon-web/www/include/reporting/dashboard/initReport.php:164
 msgid "Warning"
-msgstr "警示"
+msgstr "警告"
 
 #: /centreon-web/www/include/monitoring/status/Services/service.php:381
 #: /centreon-web/www/include/monitoring/status/Services/service.php:485
@@ -4234,7 +4234,7 @@ msgstr "警示"
 #: /centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:127
 #: /centreon-web/www/include/reporting/dashboard/initReport.php:166
 msgid "Critical"
-msgstr "故障"
+msgstr "紧急"
 
 #: /centreon-web/www/include/monitoring/status/Services/service.php:382
 #: /centreon-web/www/include/monitoring/status/Services/service.php:486
@@ -6416,11 +6416,11 @@ msgstr "区域颜色"
 
 #: /centreon-web/www/include/views/componentTemplates/formComponentTemplate.php:160
 msgid "Warning Area color"
-msgstr "警示区域颜色"
+msgstr "警告区域颜色"
 
 #: /centreon-web/www/include/views/componentTemplates/formComponentTemplate.php:161
 msgid "Critical Area color"
-msgstr "故障区域颜色"
+msgstr "紧急区域颜色"
 
 #: /centreon-web/www/include/views/componentTemplates/formComponentTemplate.php:195
 msgid "Print Max value"
@@ -6544,11 +6544,11 @@ msgstr "计量单位"
 
 #: /centreon-web/www/include/views/virtualMetrics/formVirtualMetrics.php:150
 msgid "Warning Threshold"
-msgstr "警示阈值"
+msgstr "警告阈值"
 
 #: /centreon-web/www/include/views/virtualMetrics/formVirtualMetrics.php:151
 msgid "Critical Threshold"
-msgstr "故障阈值"
+msgstr "紧急阈值"
 
 #: /centreon-web/www/include/views/virtualMetrics/formVirtualMetrics.php:153
 msgid "Hidden Graph And Legend"
@@ -8679,7 +8679,7 @@ msgstr "启用被动检查"
 #: /centreon-web/www/include/configuration/configObject/meta_service/formMetaService.php:189
 #: /centreon-web/www/include/configuration/configObject/service/formService.php:399
 msgid "Check Period"
-msgstr "检查间隔"
+msgstr "检查周期"
 
 #: /centreon-web/www/include/configuration/configObject/host_template_model/formHostTemplateModel.php:371
 #: /centreon-web/www/include/configuration/configObject/service_template_model/formServiceTemplateModel.php:413
@@ -10089,12 +10089,12 @@ msgstr "计算类型"
 #: /centreon-web/www/include/configuration/configObject/meta_service/listMetaService.php:90
 #: /centreon-web/www/include/configuration/configObject/meta_service/formMetaService.php:164
 msgid "Warning Level"
-msgstr "达到警示水平的值"
+msgstr "达到警告水平的值"
 
 #: /centreon-web/www/include/configuration/configObject/meta_service/listMetaService.php:91
 #: /centreon-web/www/include/configuration/configObject/meta_service/formMetaService.php:165
 msgid "Critical Level"
-msgstr "达到故障水平的值"
+msgstr "达到紧急水平的值"
 
 #: /centreon-web/www/include/configuration/configObject/meta_service/listMetaService.php:95
 #: /centreon-web/www/include/configuration/configObject/meta_service/listMetric.php:36
@@ -10713,11 +10713,11 @@ msgstr "显示 “正常” 状态"
 
 #: /centreon-web/www/include/Administration/myAccount/formMyAccount.php:268
 msgid "Show Warning status"
-msgstr "显示 “警示” 状态"
+msgstr "显示 “警告” 状态"
 
 #: /centreon-web/www/include/Administration/myAccount/formMyAccount.php:269
 msgid "Show Critical status"
-msgstr "显示 “故障” 状态"
+msgstr "显示 “紧急” 状态"
 
 #: /centreon-web/www/include/Administration/myAccount/formMyAccount.php:270
 msgid "Show Unknown status"
@@ -10749,11 +10749,11 @@ msgstr "“正常” 状态的声音"
 
 #: /centreon-web/www/include/Administration/myAccount/formMyAccount.php:297
 msgid "Sound for Warning status"
-msgstr "“警示” 状态的声音"
+msgstr "“警告” 状态的声音"
 
 #: /centreon-web/www/include/Administration/myAccount/formMyAccount.php:298
 msgid "Sound for Critical status"
-msgstr "“故障” 状态的声音"
+msgstr "“紧急” 状态的声音"
 
 #: /centreon-web/www/include/Administration/myAccount/formMyAccount.php:299
 msgid "Sound for Unknown status"
@@ -11669,7 +11669,7 @@ msgstr "上次检查"
 #: /centreon-web/www/include/Administration/parameters/general/form.php:162
 #: /centreon-web/www/include/Administration/parameters/general/form.php:173
 msgid "Criticality"
-msgstr "关键性"
+msgstr "紧急程度"
 
 #: /centreon-web/www/include/Administration/parameters/general/form.php:163
 msgid "Attempt"
@@ -13468,27 +13468,27 @@ msgstr "“正常” 状态告警"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:118
 msgid "WARNING Time"
-msgstr "“警示” 状态时间"
+msgstr "“警告” 状态时间"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:118
 msgid "WARNING Mean Time"
-msgstr "“警示” 状态平均时间"
+msgstr "“警告” 状态平均时间"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:118
 msgid "WARNING Alerts"
-msgstr "“警示” 状态告警"
+msgstr "“警告” 状态告警"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:119
 msgid "CRITICAL Time"
-msgstr "“故障” 状态时间"
+msgstr "“紧急” 状态时间"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:119
 msgid "CRITICAL Mean Time"
-msgstr "“故障” 状态平均时间"
+msgstr "“紧急” 状态平均时间"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:119
 msgid "CRITICAL Alerts"
-msgstr "“故障” 状态告警"
+msgstr "“紧急” 状态告警"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:120
 msgid "UNKNOWN Time"
@@ -13520,11 +13520,11 @@ msgstr "“正常” 状态告警"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:138
 msgid "Warning Mean Time"
-msgstr "“警示” 状态平均时间"
+msgstr "“警告” 状态平均时间"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:138
 msgid "Warning Alert"
-msgstr "“警示” 状态告警"
+msgstr "“警告” 状态告警"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:139
 msgid "Unknown Mean Time"
@@ -13536,11 +13536,11 @@ msgstr "“未知” 状态告警"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:140
 msgid "Critical Mean Time"
-msgstr "“故障” 状态平均时间"
+msgstr "“紧急” 状态平均时间"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_ServiceGroupLogs.php:140
 msgid "Critical Alert"
-msgstr "“故障” 状态告警"
+msgstr "“紧急” 状态告警"
 
 #: centreon-web/www/include/reporting/dashboard/csvExport/csv_HostGroupLogs.php:120
 msgid "Hosts Group"
