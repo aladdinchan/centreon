@@ -7282,7 +7282,7 @@ msgstr "主机性能数据文件"
 
 #: /centreon-web/www/include/configuration/configNagios/formNagios.php:531
 msgid "Service Performance Data File"
-msgstr "服务绩效数据文件"
+msgstr "服务性能数据文件"
 
 #: /centreon-web/www/include/configuration/configNagios/formNagios.php:536
 msgid "Host Performance Data File Template"
@@ -7290,7 +7290,7 @@ msgstr "主机性能数据文件模板"
 
 #: /centreon-web/www/include/configuration/configNagios/formNagios.php:542
 msgid "Service Performance Data File Template"
-msgstr "服务绩效数据文件模板"
+msgstr "服务性能数据文件模板"
 
 #: /centreon-web/www/include/configuration/configNagios/formNagios.php:547
 #: /centreon-web/www/include/configuration/configNagios/formNagios.php:553
@@ -9271,7 +9271,7 @@ msgstr "解析"
 
 #: /centreon-web/www/include/configuration/configObject/host/formHost.php:393
 msgid "Monitored from"
-msgstr "监控者来自"
+msgstr "负责的采集器"
 
 #: /centreon-web/www/include/configuration/configObject/host/formHost.php:475
 msgid "Checks Enabled"
